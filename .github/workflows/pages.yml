@@ -3,7 +3,10 @@ name: Deploy GitHub Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    # 工作日 8:00-20:00 北京时间（即 UTC 0:00-12:00）每小时抓取
+    - cron: "0 0-12 * * 1-5"
+    # 工作日夜间 + 周末：每 4 小时抓取一次
+    - cron: "0 */4 * * *"
   push:
     branches:
       - main
@@ -29,8 +32,24 @@ jobs:
         with:
           node-version: 24
 
+      # 恢复上次生成的 live.json，供降级兜底使用
+      - name: Restore previous data
+        uses: actions/cache@v4
+        with:
+          path: public/data/live.json
+          key: live-json-${{ github.run_id }}
+          restore-keys: live-json-
+
       - name: Generate data
         run: node scripts/fetch-news.mjs
+
+      # 将本次生成结果写入缓存，供下次降级使用
+      - name: Save data to cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: public/data/live.json
+          key: live-json-${{ github.run_id }}
 
       - name: Validate
         run: npm run validate

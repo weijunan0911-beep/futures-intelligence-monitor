@@ -13,11 +13,14 @@ const VIEW_TITLES = {
 let state = {
   view: "dashboard",
   query: "",
-  dashboard: null
+  dashboard: null,
+  loading: true
 };
 
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
+
+// ── 数据加载 ──────────────────────────────────────────────────────────────
 
 async function loadDashboard() {
   const candidates = ["api/today", "data/live.json", "data/seed.json"];
@@ -29,7 +32,7 @@ async function loadDashboard() {
         return normalizeDashboard(data);
       }
     } catch {
-      // Try the next source.
+      // 尝试下一个来源
     }
   }
   return normalizeDashboard({ items: [] });
@@ -55,13 +58,15 @@ function normalizeDashboard(data) {
       mustRead: highItems.slice(0, 10)
     },
     health: data.health || {
-      status: "正常",
-      successRate: "试运行",
+      status: "等待数据",
+      successRate: "待统计",
       failedSources: 0,
       note: "当前使用示例数据；部署 Worker 后自动抓取公开来源。"
     }
   };
 }
+
+// ── 筛选 ──────────────────────────────────────────────────────────────────
 
 function filteredItems(categoryId) {
   const query = state.query.trim().toLowerCase();
@@ -74,18 +79,21 @@ function filteredItems(categoryId) {
   });
 }
 
-function renderMetrics() {
-  const metrics = state.dashboard.metrics;
-  const cards = [
-    ["必须关注", metrics.high, "red"],
-    ["同行可借鉴", metrics.peer, "green"],
-    ["金融风险", metrics.finance, "orange"],
-    ["品种异动", metrics.variety, "blue"],
-    ["权威官方源", metrics.official, "gray"]
-  ];
+// ── 渲染组件 ──────────────────────────────────────────────────────────────
 
+function renderMetrics() {
+  const m = state.dashboard.metrics;
+  const cards = [
+    ["必须关注", m.high, "red"],
+    ["同行可借鉴", m.peer, "green"],
+    ["金融风险", m.finance, "orange"],
+    ["品种异动", m.variety, "blue"],
+    ["权威官方源", m.official, "gray"]
+  ];
   $("#metrics").innerHTML = cards
-    .map(([label, value, color]) => `<div class="metric-card"><span>${label}</span><strong class="${color}">${value}</strong></div>`)
+    .map(([label, value, color]) =>
+      `<div class="metric-card"><span>${label}</span><strong class="${color}">${value}</strong></div>`
+    )
     .join("");
 }
 
@@ -93,14 +101,24 @@ function renderItem(item) {
   const template = $("#item-template").content.cloneNode(true);
   const card = template.querySelector(".news-card");
   const importanceClass = item.rank?.importance === "高" ? "red" : item.rank?.importance === "中" ? "orange" : "gray";
+
+  // 时间展示：若有发布时间则显示，否则显示"时间待确认"
+  const timeStr = item.publishedAt ? formatTime(item.publishedAt) : '<span class="no-time">时间待确认</span>';
+
   template.querySelector(".card-meta").innerHTML = `
     <span class="pill ${importanceClass}">重要性：${item.rank?.importance || "一般"}</span>
     <span class="pill blue">${item.source?.tier || "公开来源"}</span>
     <span>${item.sourceName || "公开来源"}</span>
-    <span>${formatTime(item.publishedAt)}</span>
+    <span class="time-badge">${timeStr}</span>
   `;
   template.querySelector("h3").textContent = item.title;
-  template.querySelector(".summary").textContent = item.summary || "暂无摘要，建议查看原文。";
+
+  // 若摘要是通用占位符，给出提示文字
+  const rawSummary = item.summary || "";
+  const isGenericSummary = rawSummary.includes("发布的最新公告") || rawSummary.includes("页面发现相关链接");
+  template.querySelector(".summary").textContent = isGenericSummary ? "（摘要待系统提取，建议点击查看原文）" : rawSummary;
+  template.querySelector(".summary").classList.toggle("muted-summary", isGenericSummary);
+
   template.querySelector(".why").textContent = item.why || "系统已纳入日常资讯监控。";
   template.querySelector(".tags").innerHTML = [
     item.category?.label,
@@ -110,6 +128,7 @@ function renderItem(item) {
     .filter(Boolean)
     .map((tag) => `<span class="pill gray">${tag}</span>`)
     .join("");
+
   const link = template.querySelector("a");
   link.href = item.url || "#";
   if (!item.url) link.style.display = "none";
@@ -118,6 +137,20 @@ function renderItem(item) {
 }
 
 function section(title, items, subtitle = "") {
+  if (!items.length) {
+    return `
+      <section class="section-block">
+        <div class="section-title">
+          <div>
+            <h3>${title}</h3>
+            ${subtitle ? `<p class="eyebrow">${subtitle}</p>` : ""}
+          </div>
+          <span class="pill gray">0 条</span>
+        </div>
+        ${renderEmpty(title)}
+      </section>
+    `;
+  }
   return `
     <section class="section-block">
       <div class="section-title">
@@ -127,14 +160,38 @@ function section(title, items, subtitle = "") {
         </div>
         <span class="pill blue">${items.length} 条</span>
       </div>
-      <div class="news-list">
-        ${items.length ? items.map(renderItem).join("") : `<div class="empty">当前没有匹配内容</div>`}
-      </div>
+      <div class="news-list">${items.map(renderItem).join("")}</div>
     </section>
   `;
 }
 
+function renderEmpty(sectionName = "") {
+  const hints = {
+    "必须关注": "今日暂无高优先级信息，系统将持续监控。",
+    "同行动态与可借鉴经验": "同行动态来源正在接入中，下次抓取后将自动填充。",
+    "品种异动": "今日暂无显著品种异动。",
+    default: "当前没有匹配内容，系统正在自动更新中。"
+  };
+  return `<div class="empty-state"><p>${hints[sectionName] || hints.default}</p></div>`;
+}
+
+// 数据完全为空时的全局提示
+function renderGlobalEmpty() {
+  return `
+    <section class="section-block empty-global">
+      <div class="empty-global-icon">📡</div>
+      <h3>数据更新中</h3>
+      <p>系统正在从证监会、交易所、期货日报等公开来源抓取今日资讯。</p>
+      <p class="eyebrow">GitHub Actions 将在下一个整点自动完成更新，也可手动触发 Actions 立即抓取。</p>
+      <button class="ghost-button" onclick="location.reload()">刷新页面</button>
+    </section>
+  `;
+}
+
+// ── 视图渲染 ──────────────────────────────────────────────────────────────
+
 function renderDashboardView() {
+  if (state.dashboard.items.length === 0) return renderGlobalEmpty();
   const mustRead = state.dashboard.briefs.mustRead;
   const useful = filteredItems().filter((item) => item.category?.id === "peer" || item.businessLines?.includes("管理参考")).slice(0, 6);
   const reportable = filteredItems().filter((item) => item.rank?.importance !== "一般").slice(0, 6);
@@ -147,7 +204,6 @@ function renderDashboardView() {
 
 function renderLeaderView() {
   const items = state.dashboard.briefs.leader;
-  const lines = items.slice(0, 4).map((item) => `• ${item.title}：${item.why}`).join("");
   return `
     <section class="section-block">
       <div class="section-title">
@@ -183,16 +239,11 @@ function renderVarietyView() {
           <p class="eyebrow">围绕价格、成交、持仓、库存仓单、外盘联动和事件驱动做统一展示。</p>
         </div>
       </div>
+      ${items.length ? `
       <div class="table-wrap">
         <table>
           <thead>
-            <tr>
-              <th>资讯</th>
-              <th>品种板块</th>
-              <th>风险提示</th>
-              <th>来源</th>
-              <th>建议动作</th>
-            </tr>
+            <tr><th>资讯</th><th>品种板块</th><th>风险提示</th><th>来源</th><th>建议动作</th></tr>
           </thead>
           <tbody>
             ${items.map((item) => `
@@ -203,12 +254,12 @@ function renderVarietyView() {
                 <td>${item.sourceName}</td>
                 <td>${item.rank?.action || "一般参考"}</td>
               </tr>
-            `).join("") || `<tr><td colspan="5" class="empty">暂无品种异动</td></tr>`}
+            `).join("")}
           </tbody>
         </table>
-      </div>
+      </div>` : renderEmpty("品种异动")}
     </section>
-    ${section("品种相关资讯", items)}
+    ${items.length ? section("品种相关资讯", items) : ""}
   `;
 }
 
@@ -238,6 +289,7 @@ function renderBriefView() {
 
 function renderStatusView() {
   const health = state.dashboard.health || {};
+  const itemCount = state.dashboard.items.length;
   return `
     <section class="section-block">
       <div class="section-title">
@@ -245,16 +297,19 @@ function renderStatusView() {
           <h3>系统自动运行状态</h3>
           <p class="eyebrow">正常情况下不用人工维护，出现异常时用于定位问题。</p>
         </div>
-        <span class="pill green">${health.status || "正常"}</span>
+        <span class="pill ${health.status === "正常" ? "green" : "orange"}">${health.status || "正常"}</span>
       </div>
       <div class="table-wrap">
         <table>
           <tbody>
             <tr><th>最近更新</th><td>${formatTime(state.dashboard.generatedAt)}</td></tr>
+            <tr><th>当前数据量</th><td>${itemCount} 条</td></tr>
             <tr><th>抓取成功率</th><td>${health.successRate || "待统计"}</td></tr>
-            <tr><th>异常来源</th><td>${health.failedSources ?? 0}</td></tr>
+            <tr><th>异常来源数</th><td>${health.failedSources ?? 0}</td></tr>
+            <tr><th>运行耗时</th><td>${health.durationMs ? health.durationMs + " ms" : "—"}</td></tr>
             <tr><th>运行说明</th><td>${health.note || "系统自动抓取、去重、评分、摘要和归档。"}</td></tr>
-            <tr><th>部署方式</th><td>Cloudflare Pages / Workers 免费方案，支持 pages.dev 免费地址。</td></tr>
+            <tr><th>部署方式</th><td>GitHub Pages + GitHub Actions 免费方案，工作日每小时抓取。</td></tr>
+            <tr><th>数据源数量</th><td>13 个（监管机构 2 + 交易所 5 + 经济数据 2 + 协会/媒体 2 + 海外 2）</td></tr>
           </tbody>
         </table>
       </div>
@@ -267,14 +322,32 @@ function renderCategoryView(categoryId, title, subtitle) {
 }
 
 function renderDecisionPanel() {
-  const items = state.dashboard.briefs.mustRead.length ? state.dashboard.briefs.mustRead : state.dashboard.items.slice(0, 5);
+  const items = state.dashboard.briefs.mustRead.length
+    ? state.dashboard.briefs.mustRead
+    : state.dashboard.items.slice(0, 5);
+  if (!items.length) {
+    $("#decision-list").innerHTML = `<div class="empty-state" style="padding:12px 0"><p>今日暂无重点信息</p></div>`;
+    return;
+  }
   $("#decision-list").innerHTML = items
     .slice(0, 5)
-    .map((item) => `<div class="decision-item"><strong>${item.title}</strong><span>${item.rank?.action || "建议关注"} · ${item.category?.label || "综合资讯"}</span></div>`)
+    .map((item) =>
+      `<div class="decision-item">
+        <strong>${item.title}</strong>
+        <span>${item.rank?.action || "建议关注"} · ${item.category?.label || "综合资讯"}</span>
+       </div>`
+    )
     .join("");
 }
 
+// ── 主渲染入口 ────────────────────────────────────────────────────────────
+
 function render() {
+  if (state.loading) {
+    renderSkeleton();
+    return;
+  }
+
   $("#view-title").textContent = VIEW_TITLES[state.view];
   $("#freshness").textContent = formatTime(state.dashboard.generatedAt);
   $("#daily-summary").textContent = buildDailySummary();
@@ -282,28 +355,49 @@ function render() {
   renderDecisionPanel();
 
   const root = $("#view-root");
-  if (state.view === "dashboard") root.innerHTML = renderDashboardView();
-  if (state.view === "leader") root.innerHTML = renderLeaderView();
-  if (state.view === "employee") root.innerHTML = renderEmployeeView();
+  if (state.view === "dashboard")  root.innerHTML = renderDashboardView();
+  if (state.view === "leader")     root.innerHTML = renderLeaderView();
+  if (state.view === "employee")   root.innerHTML = renderEmployeeView();
   if (state.view === "regulation") root.innerHTML = renderCategoryView("regulation", "监管与交易所", "自动关注监管、交易所、保证金、涨跌停、交割、手续费和异常交易。");
-  if (state.view === "peer") root.innerHTML = renderCategoryView("peer", "同行动态与可借鉴经验", "提炼先进管理经验、数字化实践、风险案例和重大变动。");
-  if (state.view === "finance") root.innerHTML = renderCategoryView("finance", "境内外金融要闻", "关注央行政策、利率汇率、股债市场、海外监管、地缘风险和重要数据。");
-  if (state.view === "variety") root.innerHTML = renderVarietyView();
-  if (state.view === "brief") root.innerHTML = renderBriefView();
-  if (state.view === "status") root.innerHTML = renderStatusView();
+  if (state.view === "peer")       root.innerHTML = renderCategoryView("peer", "同行动态与可借鉴经验", "提炼先进管理经验、数字化实践、风险案例和重大变动。");
+  if (state.view === "finance")    root.innerHTML = renderCategoryView("finance", "境内外金融要闻", "关注央行政策、利率汇率、股债市场、海外监管、地缘风险和重要数据。");
+  if (state.view === "variety")    root.innerHTML = renderVarietyView();
+  if (state.view === "brief")      root.innerHTML = renderBriefView();
+  if (state.view === "status")     root.innerHTML = renderStatusView();
 }
 
+function renderSkeleton() {
+  $("#daily-summary").textContent = "正在加载资讯数据...";
+  $("#freshness").textContent = "--";
+  $("#metrics").innerHTML = Array(5).fill(
+    `<div class="metric-card skeleton"><span></span><strong></strong></div>`
+  ).join("");
+  $("#view-root").innerHTML = Array(3).fill(
+    `<section class="section-block skeleton-block">
+       <div class="section-title"><div><div class="sk-line sk-title"></div><div class="sk-line sk-sub"></div></div></div>
+       <div class="news-list">${Array(2).fill(`<article class="news-card"><div class="sk-line sk-h3"></div><div class="sk-line"></div><div class="sk-line sk-short"></div></article>`).join("")}</div>
+     </section>`
+  ).join("");
+  $("#decision-list").innerHTML = Array(3).fill(
+    `<div class="decision-item"><div class="sk-line sk-h3"></div><div class="sk-line sk-short"></div></div>`
+  ).join("");
+}
+
+// ── 文字构建 ──────────────────────────────────────────────────────────────
+
 function buildDailySummary() {
-  const metrics = state.dashboard.metrics;
-  const high = metrics.high ? `今日有 ${metrics.high} 条必须关注信息` : "今日暂无高优先级信息";
-  return `${high}；同行动态 ${metrics.peer} 条，金融要闻 ${metrics.finance} 条，品种异动 ${metrics.variety} 条。系统已按来源权威性、业务影响和时效性自动排序。`;
+  const m = state.dashboard.metrics;
+  if (!state.dashboard.items.length) return "暂无数据，系统将在下一次定时任务后自动更新。";
+  const high = m.high ? `今日有 ${m.high} 条必须关注信息` : "今日暂无高优先级信息";
+  return `${high}；同行动态 ${m.peer} 条，金融要闻 ${m.finance} 条，品种异动 ${m.variety} 条。系统已按来源权威性、业务影响和时效性自动排序。`;
 }
 
 function buildBriefText(items) {
   const date = new Date().toLocaleDateString("zh-CN");
-  const lines = items.slice(0, 8).map((item, index) => {
-    return `${index + 1}. ${item.title}\n   来源：${item.sourceName}｜重要性：${item.rank?.importance || "一般"}\n   为什么重要：${item.why}`;
-  });
+  if (!items.length) return `期货行业资讯简报（${date}）\n\n今日数据正在更新中，请稍后刷新。`;
+  const lines = items.slice(0, 8).map((item, i) =>
+    `${i + 1}. ${item.title}\n   来源：${item.sourceName}｜重要性：${item.rank?.importance || "一般"}\n   为什么重要：${item.why}`
+  );
   return `期货行业资讯简报（${date}）\n\n今日结论：${buildDailySummary()}\n\n${lines.join("\n\n")}\n\n说明：以上内容由系统基于公开来源自动整理，阅读和转发时以原文为准。`;
 }
 
@@ -311,13 +405,10 @@ function formatTime(value) {
   if (!value) return "时间待确认";
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value;
-  return date.toLocaleString("zh-CN", {
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    minute: "2-digit"
-  });
+  return date.toLocaleString("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" });
 }
+
+// ── 事件绑定 ──────────────────────────────────────────────────────────────
 
 function wireEvents() {
   $$(".nav-item").forEach((button) => {
@@ -340,8 +431,25 @@ function wireEvents() {
     $("#copy-brief").textContent = "已复制";
     setTimeout(() => ($("#copy-brief").textContent = "复制今日简报"), 1400);
   });
+
+  $("#refresh-btn").addEventListener("click", async () => {
+    const btn = $("#refresh-btn");
+    btn.disabled = true;
+    btn.textContent = "更新中...";
+    state.loading = true;
+    render();
+    state.dashboard = await loadDashboard();
+    state.loading = false;
+    render();
+    btn.disabled = false;
+    btn.textContent = "刷新数据";
+  });
 }
 
+// ── 初始化 ────────────────────────────────────────────────────────────────
+
+render(); // 先渲染骨架屏
 state.dashboard = await loadDashboard();
+state.loading = false;
 wireEvents();
 render();
