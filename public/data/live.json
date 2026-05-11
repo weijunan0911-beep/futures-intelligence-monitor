@@ -1,46 +1,8 @@
 {
-  "generatedAt": "2026-05-11T05:45:24.774Z",
+  "generatedAt": "2026-05-11T06:02:07.434Z",
   "items": [
     {
-      "id": "关于警惕香港“伪交易所”非法金融活动的风险提示-1778478324772",
-      "title": "关于警惕香港“伪交易所”非法金融活动的风险提示",
-      "summary": "中国证监会-公告发布的最新公告。",
-      "sourceName": "中国证监会-公告",
-      "url": "https://www.csrc.gov.cn/dalian/c101569/c7631665/content.shtml",
-      "publishedAt": "",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "证监会",
-          "交易所",
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "监管机构",
-        "tier": "权威官方",
-        "score": 100,
-        "host": "csrc.gov.cn"
-      },
-      "rank": {
-        "score": 104,
-        "importance": "高",
-        "action": "建议纳入今日重点"
-      },
-      "businessLines": [
-        "风控",
-        "经纪业务",
-        "客户服务"
-      ],
-      "varieties": [],
-      "why": "来源为权威官方，内容涉及监管与交易所，可能影响风控、经纪业务、客户服务等工作。",
-      "confidence": "高"
-    },
-    {
-      "id": "行政处罚罚款催告书送达公告-1778478324772",
+      "id": "行政处罚罚款催告书送达公告-1778479327433",
       "title": "行政处罚罚款催告书送达公告",
       "summary": "中国证监会-公告发布的最新公告。",
       "sourceName": "中国证监会-公告",
@@ -52,7 +14,7 @@
         "label": "监管与交易所",
         "hits": [
           "证监会",
-          "公告"
+          "行政处罚"
         ]
       },
       "source": {
@@ -75,7 +37,7 @@
       "confidence": "高"
     },
     {
-      "id": "中国证券监督管理委员会行政处罚决定书-1778478324772",
+      "id": "中国证券监督管理委员会行政处罚决定书-1778479327433",
       "title": "中国证券监督管理委员会行政处罚决定书",
       "summary": "中国证监会-公告发布的最新公告。",
       "sourceName": "中国证监会-公告",
@@ -87,7 +49,7 @@
         "label": "监管与交易所",
         "hits": [
           "证监会",
-          "公告"
+          "行政处罚"
         ]
       },
       "source": {
@@ -110,10 +72,10 @@
       "confidence": "高"
     },
     {
-      "id": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求-1778478324772",
+      "id": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求-1778479327434",
       "title": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求",
-      "summary": "中国证监会-新闻发布的最新公告。",
-      "sourceName": "中国证监会-新闻",
+      "summary": "中国证监会-公告发布的最新公告。",
+      "sourceName": "中国证监会-公告",
       "url": "https://www.csrc.gov.cn/csrc/c100107/c1447186/content.shtml",
       "publishedAt": "",
       "rawText": "",
@@ -121,8 +83,7 @@
         "id": "regulation",
         "label": "监管与交易所",
         "hits": [
-          "证监会",
-          "公告"
+          "证监会"
         ]
       },
       "source": {
@@ -146,10 +107,10 @@
       "confidence": "高"
     },
     {
-      "id": "发行监管问答——关于引导规范上市公司融资行为的监管要求修订版-1778478324772",
+      "id": "发行监管问答——关于引导规范上市公司融资行为的监管要求修订版-1778479327434",
       "title": "发行监管问答——关于引导规范上市公司融资行为的监管要求（修订版）",
-      "summary": "中国证监会-新闻发布的最新公告。",
-      "sourceName": "中国证监会-新闻",
+      "summary": "中国证监会-公告发布的最新公告。",
+      "sourceName": "中国证监会-公告",
       "url": "https://www.csrc.gov.cn/csrc/c100107/c1447187/content.shtml",
       "publishedAt": "",
       "rawText": "",
@@ -157,8 +118,7 @@
         "id": "regulation",
         "label": "监管与交易所",
         "hits": [
-          "证监会",
-          "公告"
+          "证监会"
         ]
       },
       "source": {
@@ -181,10 +141,10 @@
       "confidence": "高"
     },
     {
-      "id": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答-1778478324772",
+      "id": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答-1778479327434",
       "title": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答",
-      "summary": "中国证监会-新闻发布的最新公告。",
-      "sourceName": "中国证监会-新闻",
+      "summary": "中国证监会-公告发布的最新公告。",
+      "sourceName": "中国证监会-公告",
       "url": "https://www.csrc.gov.cn/csrc/c100107/c1447188/content.shtml",
       "publishedAt": "",
       "rawText": "",
@@ -192,8 +152,7 @@
         "id": "regulation",
         "label": "监管与交易所",
         "hits": [
-          "证监会",
-          "公告"
+          "证监会"
         ]
       },
       "source": {
@@ -216,10 +175,10 @@
       "confidence": "高"
     },
     {
-      "id": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准-1778478324772",
+      "id": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准-1778479327434",
       "title": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准",
-      "summary": "中国证监会-新闻发布的最新公告。",
-      "sourceName": "中国证监会-新闻",
+      "summary": "中国证监会-公告发布的最新公告。",
+      "sourceName": "中国证监会-公告",
       "url": "https://www.csrc.gov.cn/csrc/c100107/c1447190/content.shtml",
       "publishedAt": "",
       "rawText": "",
@@ -227,8 +186,7 @@
         "id": "regulation",
         "label": "监管与交易所",
         "hits": [
-          "证监会",
-          "公告"
+          "证监会"
         ]
       },
       "source": {
@@ -251,7 +209,7 @@
       "confidence": "高"
     },
     {
-      "id": "关于就中国证监会行政处罚案件违法所得认定办法征求意见稿公开征求意见的通知-1778478324772",
+      "id": "关于就中国证监会行政处罚案件违法所得认定办法征求意见稿公开征求意见的通知-1778479327434",
       "title": "关于就《中国证监会行政处罚案件违法所得认定办法（征求意见稿）》公开征求意见的通知",
       "summary": "中国证监会-新闻发布的最新公告。",
       "sourceName": "中国证监会-新闻",
@@ -263,8 +221,8 @@
         "label": "监管与交易所",
         "hits": [
           "证监会",
-          "公告",
-          "通知"
+          "行政处罚",
+          "征求意见"
         ]
       },
       "source": {
@@ -300,7 +258,7 @@
         "label": "监管与交易所",
         "hits": [
           "证监会",
-          "公告"
+          "行政许可"
         ]
       },
       "source": {
@@ -323,7 +281,422 @@
       "confidence": "高"
     },
     {
-      "id": "风险管理业务-1778478324773",
+      "id": "监管释放期货市场防风险促发展信号首提金融期货对外开放-2024-10-11T07:00:00.000Z",
+      "title": "监管释放期货市场防风险促发展信号 首提金融期货对外开放",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uQVRVelVDNUo1WUx0WXk0blMyaF9manM2Mkl1ZUVHa0VDQktvdXhHTEZvbzNER1dsOS1mVjBjVzRKMWdXSjdSNjE1VEVqM2ZwSU",
+      "sourceName": "财新",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uQVRVelVDNUo1WUx0WXk0blMyaF9manM2Mkl1ZUVHa0VDQktvdXhHTEZvbzNER1dsOS1mVjBjVzRKMWdXSjdSNjE1VEVqM2ZwSUhQX29Jc2ZYam1CQWRRdnNn?oc=5",
+      "publishedAt": "2024-10-11T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "pattern": {},
+        "label": "财新",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "风控",
+        "合规"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "证监会部署！期市程序化交易将迎来全过程监管，突出对高频交易的重点监管-2025-01-18T08:00:00.000Z",
+      "title": "证监会部署！期市程序化交易将迎来全过程监管，突出对高频交易的重点监管",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE56cGdCVnFuaXgwZUE4ejNFOTFWSlZCZm8yM3QyU3Iza056Y3ozemdPS0RVSFc4dV9nNFROYTVLbG1JVW93NDUtdTdNTTZzbW0zUG",
+      "sourceName": "证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56cGdCVnFuaXgwZUE4ejNFOTFWSlZCZm8yM3QyU3Iza056Y3ozemdPS0RVSFc4dV9nNFROYTVLbG1JVW93NDUtdTdNTTZzbW0zUGxBdjR5VQ?oc=5",
+      "publishedAt": "2025-01-18T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "证券时报",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "合规",
+        "经纪业务"
+      ],
+      "varieties": [],
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "监管新规重塑期货行业生态“重资本时代”正加速到来-2026-04-21T07:00:00.000Z",
+      "title": "监管新规重塑期货行业生态 “重资本时代”正加速到来",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JTlFJTWgzTmVXdG56aTVlMzlKNURHcUl1TjlwcU1rSEJmdDY4RWRVMjNCNUhTeUdGRFlVOXdmS20wV1JYTHhDTGl1VzFhTGFNUn",
+      "sourceName": "证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JTlFJTWgzTmVXdG56aTVlMzlKNURHcUl1TjlwcU1rSEJmdDY4RWRVMjNCNUhTeUdGRFlVOXdmS20wV1JYTHhDTGl1VzFhTGFNUnlwclU5d0RrR3Vt?oc=5",
+      "publishedAt": "2026-04-21T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "pattern": {},
+        "label": "证券时报",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "合规"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "美联储降息预期升温主导市场本周多国利率决议来袭-2025-12-11T08:00:00.000Z",
+      "title": "美联储降息预期升温主导市场 本周多国利率决议来袭",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5Wc2NNNkFORWh4NzhqOTdUN19CZ0ZxZlljR191YXFRQ3Fpcm1waTEzSGdqajBGNEZCZkNYQjlaZ3JBM3FkWVY2VUJ1dW9GVVphQn",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Wc2NNNkFORWh4NzhqOTdUN19CZ0ZxZlljR191YXFRQ3Fpcm1waTEzSGdqajBGNEZCZkNYQjlaZ3JBM3FkWVY2VUJ1dW9GVVphQnVGUFl5R0hoZU9PY3BmejdPSmJXeTAza0JoZWpVaG1CXzVYVmc?oc=5",
+      "publishedAt": "2025-12-11T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "利率",
+          "美联储"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "地缘避险推升美元继续走强本周全球央行决议成焦点-2026-03-17T07:00:00.000Z",
+      "title": "地缘避险推升美元继续走强 本周全球央行决议成焦点",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNlJYQ0ZYcENIamlwR2wzQ2VHUDJkWTVxdU1QZHpQMUZ3R2VJQ0tjZHBKX3dZcGFYS3lHRi1nR200RWFIRm04SGY5UFRlTHVOTE",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNlJYQ0ZYcENIamlwR2wzQ2VHUDJkWTVxdU1QZHpQMUZ3R2VJQ0tjZHBKX3dZcGFYS3lHRi1nR200RWFIRm04SGY5UFRlTHVOTERTRXU0Y0ZyQVYzOUZjT2JiR3ZCTHhKWVVScm9JZDJkRjZvVHBjbENqT3JwU1RDeGc5QzRvZVpa?oc=5",
+      "publishedAt": "2026-03-17T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "央行",
+          "美元",
+          "地缘"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "鸽派美联储施压美元三连跌本周迎多国决议超级周-2025-12-17T08:00:00.000Z",
+      "title": "鸽派美联储施压美元三连跌 本周迎多国决议超级周",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE91SWM5VFBULVRISklXVEpnSExBVmRBbjVQekdoQUdUelRmcllLYy10RXI0bWNPdDZKam1uS0pLNFRuLWNNdkZtOE9TbkFlVzB2OC",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91SWM5VFBULVRISklXVEpnSExBVmRBbjVQekdoQUdUelRmcllLYy10RXI0bWNPdDZKam1uS0pLNFRuLWNNdkZtOE9TbkFlVzB2OC10XzQ5WENVanREcThDRFd5dXRYajlXRHo3aHczaGgyc0xOcEE?oc=5",
+      "publishedAt": "2025-12-17T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "美联储",
+          "美元"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "美元受降息预期压制窄幅震荡本周迎央行决议超级周-2025-09-15T07:00:00.000Z",
+      "title": "美元受降息预期压制窄幅震荡 本周迎央行决议超级周",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9MclZTeGxmby13aXdNMk1fYm5CN1F3QUI4YzdBSURTVmEtZTRuQVlkdTR3cFpkSGR3RHdfRVB2bHZpZmYtZWx0NXVkNWlIdk1HNm",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MclZTeGxmby13aXdNMk1fYm5CN1F3QUI4YzdBSURTVmEtZTRuQVlkdTR3cFpkSGR3RHdfRVB2bHZpZmYtZWx0NXVkNWlIdk1HNmxKR21SQ2V6VWtwSjVOZUhUVEYzZ041SEFjY1p2T0lrckxmaWc?oc=5",
+      "publishedAt": "2025-09-15T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "央行",
+          "美元"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "圣诞假日市场波澜不惊新年首周聚焦数据与央行信号-2025-12-30T08:00:00.000Z",
+      "title": "圣诞假日市场波澜不惊 新年首周聚焦数据与央行信号",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1zVmNyVWotREpHdzRTakRIWURVV3lfRVRNM2pBdGVSblhIbWNEOGdWMkJSaVVrbm1DOHdZYVRDNXY0cWpPS3cxY29HMXgybEV1RG",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zVmNyVWotREpHdzRTakRIWURVV3lfRVRNM2pBdGVSblhIbWNEOGdWMkJSaVVrbm1DOHdZYVRDNXY0cWpPS3cxY29HMXgybEV1RGt0el9QQWFKdXc3SE8tb2xXLXRZOWpwRWJVQjJyeGhXS3czRHc?oc=5",
+      "publishedAt": "2025-12-30T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "央行"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "美联储降息在即，人民币汇率何去何从？-2025-08-22T07:00:00.000Z",
+      "title": "美联储降息在即，人民币汇率何去何从？",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFAyQUV0bXVFNDFBY1JVNTBmWFVDTGFnLVR2S1FNLVF0U0g1SkFXbDdPZ0pidWVlX1NoVjFQelhBUVVSb3JnZkFSWklXY04xRWFwVn",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyQUV0bXVFNDFBY1JVNTBmWFVDTGFnLVR2S1FNLVF0U0g1SkFXbDdPZ0pidWVlX1NoVjFQelhBUVVSb3JnZkFSWklXY04xRWFwVnNPckVZbGRjbTgzYTJsaUxXcmYtcFlsN3Nta3JiZ25pRlBOUE1JYQ?oc=5",
+      "publishedAt": "2025-08-22T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "汇率",
+          "美联储"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "美联储发言扭转市场鸽派预期美元指数连续第三周反弹-2025-05-14T07:00:00.000Z",
+      "title": "美联储发言扭转市场鸽派预期 美元指数连续第三周反弹",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5odDF2eDBfN2t3djV6cFpaWkhEcDBvSXp0QWZRYVRtWUx0aFEyTUt1TWFUMjdvS1hia09ETjM2VExIWi1FbU82cTVXc203VkFJZl",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5odDF2eDBfN2t3djV6cFpaWkhEcDBvSXp0QWZRYVRtWUx0aFEyTUt1TWFUMjdvS1hia09ETjM2VExIWi1FbU82cTVXc203VkFJZlh1dkVDOEs5clNYbzRqc2RCMy1CZ3M0Y3pnYmZud3hXVEkwN3c?oc=5",
+      "publishedAt": "2025-05-14T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "美联储",
+          "美元"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "中东冲突升级美国下场央行间政策差异推动美元走高-2025-06-25T07:00:00.000Z",
+      "title": "中东冲突升级美国下场 央行间政策差异推动美元走高",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBqMXNKTG1hLXJXWml4cEd6cjFydEtLeUZ5SWh6T1ZlVF84VWRCdGlHZENQSzJfQkwwWThZTVBoQ08tQmJ2YlJrcHYwRWtLM0szTn",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqMXNKTG1hLXJXWml4cEd6cjFydEtLeUZ5SWh6T1ZlVF84VWRCdGlHZENQSzJfQkwwWThZTVBoQ08tQmJ2YlJrcHYwRWtLM0szTnEtMEY5WWU5VERiZEQtVU5TZ3AxNEh4WENqOGZNbTRIUWE4SXc?oc=5",
+      "publishedAt": "2025-06-25T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "央行",
+          "美元"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "美联储主席提名落地美元上演周线深V反转-2026-02-04T08:00:00.000Z",
+      "title": "美联储主席提名落地 美元上演周线深V反转",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1RZT0w4TWZtdVh2bkVocndQVFo5aHF3Mjg3OEVHVE5ZT3dUam9MUVRwRlIzMWdudll1dVQyVHZLd3JQRkRaR1RxSlNXbktJUG",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1RZT0w4TWZtdVh2bkVocndQVFo5aHF3Mjg3OEVHVE5ZT3dUam9MUVRwRlIzMWdudll1dVQyVHZLd3JQRkRaR1RxSlNXbktJUG5XdHNaU2oyMzFrS1F4LW8tQ2FQZkZkcVpNeGMxS1lVbTJmMUpwQnpkd0lzTU1JWTBVcFE5SHdx?oc=5",
+      "publishedAt": "2026-02-04T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "美联储",
+          "美元"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "CME",
+        "tier": "权威官方",
+        "score": 88,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 98,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "风险管理业务-1778479327434",
       "title": "风险管理业务",
       "summary": "中国期货业协会发布的最新公告。",
       "sourceName": "中国期货业协会",
@@ -331,11 +704,9 @@
       "publishedAt": "",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
         "pattern": {},
@@ -353,8 +724,78 @@
         "风控"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "高"
+    },
+    {
+      "id": "早报监管部门禁止机构通过股指期货做空A股？证监会回应；多家银行密集下调存款利率-2024-02-22T08:00:00.000Z",
+      "title": "【早报】监管部门禁止机构通过股指期货做空A股？证监会回应；多家银行密集下调存款利率",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTE5JMjJ3ZlQ5NXlsdXg4N0Q0U3JkYXJoaVZBeUhlcXIwbnNFc01mSEhDNGlSdC0wX2RHM3duN0pEY2pTTzJXR1E?oc=5\" target=\"",
+      "sourceName": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5JMjJ3ZlQ5NXlsdXg4N0Q0U3JkYXJoaVZBeUhlcXIwbnNFc01mSEhDNGlSdC0wX2RHM3duN0pEY2pTTzJXR1E?oc=5",
+      "publishedAt": "2024-02-22T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "财联社",
+        "tier": "财经媒体",
+        "score": 78,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 94,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "合规"
+      ],
+      "varieties": [
+        "金融期货"
+      ],
+      "why": "涉及金融期货相关品种，适合纳入市场跟踪和业务提示。",
+      "confidence": "中"
+    },
+    {
+      "id": "为沪深股通资金提供风险管理工具，港交所推首只MSCI中国A50互联互通指数期货合约，-2021-08-20T12:58:11.000Z",
+      "title": "为沪深股通资金提供风险管理工具，港交所推首只MSCI中国A50互联互通指数期货合约，更为南北互联互通引活水",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiR0FVX3lxTE1nMHBUbUhUVlltUWhycXplZmtId1R6SjgyTm5haFdxTnBLTWpnMUJmVWlLcS1LOURIcDVtRDhOVmplbDFTSXhB?oc=5\" target=",
+      "sourceName": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1nMHBUbUhUVlltUWhycXplZmtId1R6SjgyTm5haFdxTnBLTWpnMUJmVWlLcS1LOURIcDVtRDhOVmplbDFTSXhB?oc=5",
+      "publishedAt": "2021-08-20T12:58:11.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "pattern": {},
+        "label": "财联社",
+        "tier": "财经媒体",
+        "score": 78,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 94,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "风控"
+      ],
+      "varieties": [
+        "金融期货"
+      ],
+      "why": "涉及金融期货相关品种，适合纳入市场跟踪和业务提示。",
+      "confidence": "中"
     },
     {
       "id": "2026年3月全国期货市场交易情况简报-2026-03-01",
@@ -365,10 +806,10 @@
       "publishedAt": "2026-03-01",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "peer",
+        "label": "同行动态",
         "hits": [
-          "公告"
+          "交易情况简报"
         ]
       },
       "source": {
@@ -387,7 +828,7 @@
         "经纪业务"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
       "confidence": "高"
     },
     {
@@ -399,10 +840,11 @@
       "publishedAt": "2026-03-01",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "peer",
+        "label": "同行动态",
         "hits": [
-          "公告"
+          "期货从业",
+          "从业人员资格"
         ]
       },
       "source": {
@@ -421,7 +863,7 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
       "confidence": "高"
     },
     {
@@ -433,12 +875,10 @@
       "publishedAt": "2026-03-01",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "peer",
+        "label": "同行动态",
         "hits": [
-          "规则",
-          "公告",
-          "通知"
+          "期货公司"
         ]
       },
       "source": {
@@ -457,7 +897,7 @@
         "客户服务"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
       "confidence": "高"
     },
     {
@@ -469,10 +909,10 @@
       "publishedAt": "2026-05-01",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "peer",
+        "label": "同行动态",
         "hits": [
-          "公告"
+          "联合研究"
         ]
       },
       "source": {
@@ -491,7 +931,7 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
       "confidence": "高"
     },
     {
@@ -503,10 +943,10 @@
       "publishedAt": "2024-10-18T00:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "peer",
+        "label": "同行动态",
         "hits": [
-          "公告"
+          "服务实体"
         ]
       },
       "source": {
@@ -527,7 +967,7 @@
         "客户服务"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
       "confidence": "高"
     },
     {
@@ -539,11 +979,9 @@
       "publishedAt": "2024-10-18T00:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
         "pattern": {},
@@ -561,7 +999,7 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "高"
     },
     {
@@ -573,11 +1011,9 @@
       "publishedAt": "2022-05-19T00:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
         "pattern": {},
@@ -595,8 +1031,42 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "高"
+    },
+    {
+      "id": "凌晨重磅！美联储降息25个基点，鲍威尔“放鸽”-2025-09-18T07:00:00.000Z",
+      "title": "凌晨重磅！美联储降息25个基点，鲍威尔“放鸽”",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wNjNUUXN0SVp0eURzVHl4YXh6c2ZPcmVQVG1yaUpwNmZ0RzFvVVFhaTB6U1U3S21EcFNoUHowX1k0RU9IUHJzRGdfZWF5ZElhOE",
+      "sourceName": "证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wNjNUUXN0SVp0eURzVHl4YXh6c2ZPcmVQVG1yaUpwNmZ0RzFvVVFhaTB6U1U3S21EcFNoUHowX1k0RU9IUHJzRGdfZWF5ZElhOElWampSaHFYbklF?oc=5",
+      "publishedAt": "2025-09-18T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "美联储"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "证券时报",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 92,
+        "importance": "中",
+        "action": "建议关注"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
     },
     {
       "id": "中国人民银行公告〔2026〕第13号-2026-05-09T00:00:00.000Z",
@@ -607,15 +1077,13 @@
       "publishedAt": "2026-05-09T00:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
         "pattern": {},
-        "label": "政府部门",
+        "label": "央行",
         "tier": "权威官方",
         "score": 92,
         "host": "pbc.gov.cn"
@@ -629,7 +1097,7 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "高"
     },
     {
@@ -641,15 +1109,13 @@
       "publishedAt": "2026-05-04T00:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
         "pattern": {},
-        "label": "政府部门",
+        "label": "央行",
         "tier": "权威官方",
         "score": 92,
         "host": "pbc.gov.cn"
@@ -663,7 +1129,7 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "高"
     },
     {
@@ -675,15 +1141,13 @@
       "publishedAt": "2026-04-30T00:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
         "pattern": {},
-        "label": "政府部门",
+        "label": "央行",
         "tier": "权威官方",
         "score": 92,
         "host": "pbc.gov.cn"
@@ -697,7 +1161,7 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "高"
     },
     {
@@ -709,11 +1173,9 @@
       "publishedAt": "2026-05-08T00:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
         "pattern": {},
@@ -731,303 +1193,62 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "高"
     },
     {
-      "id": "2026年4月份居民消费价格同比上涨1.2%-2026-04-01",
-      "title": "2026年4月份居民消费价格同比上涨1.2%",
-      "summary": "国家统计局发布的最新公告。",
-      "sourceName": "国家统计局",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260511_1963659.html",
-      "publishedAt": "2026-04-01",
+      "id": "中州期货总经理陈扬发：基于“数字驱动+用户思维”以金融科技重塑风险管理业务模式｜湾区-2024-08-08T07:00:00.000Z",
+      "title": "中州期货总经理陈扬发：基于“数字驱动+用户思维” 以金融科技重塑风险管理业务模式 ｜湾区建设的金融力量⑨",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPLXIxbmVxMG5yWlpYcEhDQ05YQWp0UnNNSXJuUk5XV2xCLWVzUG5SSU5YQVhVWWdSOWk4OVNHUUJrakwtazhuajhWUWE1MGY0RW",
+      "sourceName": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLXIxbmVxMG5yWlpYcEhDQ05YQWp0UnNNSXJuUk5XV2xCLWVzUG5SSU5YQVhVWWdSOWk4OVNHUUJrakwtazhuajhWUWE1MGY0RWZyLTFadkpLak90anhKelZwRXRFSlRTQVB2WlBkUHU2bjhWQlI5TW1RVWk4aW52MlVraVZlQVJaZExZYVptZw?oc=5",
+      "publishedAt": "2024-08-08T07:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
-        "pattern": {},
-        "label": "政府部门",
-        "tier": "权威官方",
-        "score": 92,
-        "host": "stats.gov.cn"
+        "label": "财经媒体",
+        "tier": "财经媒体",
+        "score": 72,
+        "host": "news.google.com"
       },
       "rank": {
-        "score": 92,
+        "score": 88,
         "importance": "中",
         "action": "建议关注"
       },
       "businessLines": [
-        "管理参考"
+        "风控"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "中"
     },
     {
-      "id": "2026年4月份工业生产者出厂价格同比上涨2.8%环比上涨1.7%-2026-04-01",
-      "title": "2026年4月份工业生产者出厂价格同比上涨2.8% 环比上涨1.7%",
-      "summary": "国家统计局发布的最新公告。",
-      "sourceName": "国家统计局",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260511_1963658.html",
-      "publishedAt": "2026-04-01",
+      "id": "美元反弹市场静候非农指引利率政策分歧-2025-10-01T07:00:00.000Z",
+      "title": "美元反弹 市场静候非农指引 利率政策分歧",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE4yTU1pT1NaeUJ4d21HdV93WFNCbDdzaE9zQlFiRGxzV0d0TXg4REV3Z0h5TVd5WWQzYzhtT3prTnFkSEFuR3AyQV9wNHlmMlpvUz",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yTU1pT1NaeUJ4d21HdV93WFNCbDdzaE9zQlFiRGxzV0d0TXg4REV3Z0h5TVd5WWQzYzhtT3prTnFkSEFuR3AyQV9wNHlmMlpvUzFLTVZlc0VaZXJkVjZ5SDJCVFh6dDl0a2E4NG95NGhBbVgyOXc?oc=5",
+      "publishedAt": "2025-10-01T07:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "finance",
+        "label": "金融要闻",
         "hits": [
-          "公告"
+          "利率",
+          "美元"
         ]
       },
       "source": {
         "pattern": {},
-        "label": "政府部门",
+        "label": "CME",
         "tier": "权威官方",
-        "score": 92,
-        "host": "stats.gov.cn"
-      },
-      "rank": {
-        "score": 92,
-        "importance": "中",
-        "action": "建议关注"
-      },
-      "businessLines": [
-        "管理参考"
-      ],
-      "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
-    },
-    {
-      "id": "2026年4月份工业生产者出厂价格同比上涨...-2026-04-01",
-      "title": "2026年4月份工业生产者出厂价格同比上涨...",
-      "summary": "国家统计局发布的最新公告。",
-      "sourceName": "国家统计局",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260511_1963658.html",
-      "publishedAt": "2026-04-01",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "政府部门",
-        "tier": "权威官方",
-        "score": 92,
-        "host": "stats.gov.cn"
-      },
-      "rank": {
-        "score": 92,
-        "importance": "中",
-        "action": "建议关注"
-      },
-      "businessLines": [
-        "管理参考"
-      ],
-      "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
-    },
-    {
-      "id": "2026年4月下旬流通领域重要生产资料市场价格变动情况-2026-04-01",
-      "title": "2026年4月下旬流通领域重要生产资料市场价格变动情况",
-      "summary": "国家统计局发布的最新公告。",
-      "sourceName": "国家统计局",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260506_1963594.html",
-      "publishedAt": "2026-04-01",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "政府部门",
-        "tier": "权威官方",
-        "score": 92,
-        "host": "stats.gov.cn"
-      },
-      "rank": {
-        "score": 92,
-        "importance": "中",
-        "action": "建议关注"
-      },
-      "businessLines": [
-        "管理参考"
-      ],
-      "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
-    },
-    {
-      "id": "2026年1—3月份全国规模以上工业企业利润增长15.5%-2026-04-29T00:00:00.000Z",
-      "title": "2026年1—3月份全国规模以上工业企业利润增长15.5%",
-      "summary": "国家统计局发布的最新公告。",
-      "sourceName": "国家统计局",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260427_1963403.html",
-      "publishedAt": "2026-04-29T00:00:00.000Z",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "政府部门",
-        "tier": "权威官方",
-        "score": 92,
-        "host": "stats.gov.cn"
-      },
-      "rank": {
-        "score": 92,
-        "importance": "中",
-        "action": "建议关注"
-      },
-      "businessLines": [
-        "管理参考"
-      ],
-      "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
-    },
-    {
-      "id": "2026年1—3月份全国规模以上工业企业利...-2026-04-27T00:00:00.000Z",
-      "title": "2026年1—3月份全国规模以上工业企业利...",
-      "summary": "国家统计局发布的最新公告。",
-      "sourceName": "国家统计局",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260427_1963403.html",
-      "publishedAt": "2026-04-27T00:00:00.000Z",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "政府部门",
-        "tier": "权威官方",
-        "score": 92,
-        "host": "stats.gov.cn"
-      },
-      "rank": {
-        "score": 92,
-        "importance": "中",
-        "action": "建议关注"
-      },
-      "businessLines": [
-        "管理参考"
-      ],
-      "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
-    },
-    {
-      "id": "2026年4月中旬流通领域重要生产资料市场价格变动情况-2026-04-27T00:00:00.000Z",
-      "title": "2026年4月中旬流通领域重要生产资料市场价格变动情况",
-      "summary": "国家统计局发布的最新公告。",
-      "sourceName": "国家统计局",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260424_1963388.html",
-      "publishedAt": "2026-04-27T00:00:00.000Z",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "政府部门",
-        "tier": "权威官方",
-        "score": 92,
-        "host": "stats.gov.cn"
-      },
-      "rank": {
-        "score": 92,
-        "importance": "中",
-        "action": "建议关注"
-      },
-      "businessLines": [
-        "管理参考"
-      ],
-      "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
-    },
-    {
-      "id": "2026年3月份规模以上工业增加值增长5.7%-2026-04-16T00:00:00.000Z",
-      "title": "2026年3月份规模以上工业增加值增长5.7%",
-      "summary": "国家统计局发布的最新公告。",
-      "sourceName": "国家统计局",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963329.html",
-      "publishedAt": "2026-04-16T00:00:00.000Z",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "政府部门",
-        "tier": "权威官方",
-        "score": 92,
-        "host": "stats.gov.cn"
-      },
-      "rank": {
-        "score": 92,
-        "importance": "中",
-        "action": "建议关注"
-      },
-      "businessLines": [
-        "管理参考"
-      ],
-      "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
-    },
-    {
-      "id": "2024年1月19日新闻发布会-1778478324772",
-      "title": "2024 年1月19日新闻发布会",
-      "summary": "中国证监会-公告发布的最新公告。",
-      "sourceName": "中国证监会-公告",
-      "url": "https://www.csrc.gov.cn/csrc/c100029/c7458464/content.shtml",
-      "publishedAt": "",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "证监会",
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "监管机构",
-        "tier": "权威官方",
-        "score": 100,
-        "host": "csrc.gov.cn"
+        "score": 88,
+        "host": "news.google.com"
       },
       "rank": {
         "score": 88,
@@ -1038,31 +1259,32 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
     },
     {
-      "id": "中国证监会发布私募投资基金信息披露监督管理办法-1778478324772",
-      "title": "中国证监会发布《私募投资基金信息披露监督管理办法》",
-      "summary": "中国证监会-公告发布的最新公告。",
-      "sourceName": "中国证监会-公告",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7616846/content.shtml",
-      "publishedAt": "",
+      "id": "不利经济数据施压美元本周关注美英利率决议后发言-2025-06-18T07:00:00.000Z",
+      "title": "不利经济数据施压美元 本周关注美英利率决议后发言",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBJRG5JcWU4R0FCT21rWEpxbzBZMHFmYXNXal9wd3VqV1FpZlFOSmNwaGdFQWpHR0tWQlVHaGQtQTVHV0QycVpsTm1EN2FaRFlyTl",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJRG5JcWU4R0FCT21rWEpxbzBZMHFmYXNXal9wd3VqV1FpZlFOSmNwaGdFQWpHR0tWQlVHaGQtQTVHV0QycVpsTm1EN2FaRFlyTlQyeUxuazVmS090ekJrUy1GSjEwN21vZk05MVJVNW1UZ0p2Y2c?oc=5",
+      "publishedAt": "2025-06-18T07:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "finance",
+        "label": "金融要闻",
         "hits": [
-          "证监会",
-          "公告"
+          "利率",
+          "美元",
+          "经济数据"
         ]
       },
       "source": {
         "pattern": {},
-        "label": "监管机构",
+        "label": "CME",
         "tier": "权威官方",
-        "score": 100,
-        "host": "csrc.gov.cn"
+        "score": 88,
+        "host": "news.google.com"
       },
       "rank": {
         "score": 88,
@@ -1070,34 +1292,34 @@
         "action": "建议关注"
       },
       "businessLines": [
-        "管理参考"
+        "投研"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
     },
     {
-      "id": "中国证监会发布公开募集证券投资基金业绩比较基准指引-1778478324772",
-      "title": "中国证监会发布《公开募集证券投资基金业绩比较基准指引》",
-      "summary": "中国证监会-公告发布的最新公告。",
-      "sourceName": "中国证监会-公告",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7610827/content.shtml",
-      "publishedAt": "",
+      "id": "美元冲高回落震荡收涨本周迎众多经济数据及官员讲话-2025-06-04T07:00:00.000Z",
+      "title": "美元冲高回落震荡收涨 本周迎众多经济数据及官员讲话",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1MNDViVjdHQk02M1hkUHNnTkJST2FlRHh6VnpQSTA4SHIxUzFGamhPMzNhWVV0cDJJQmN6dE43ZWxqNFNCMGZ1azRNcU9DY2tQa0",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MNDViVjdHQk02M1hkUHNnTkJST2FlRHh6VnpQSTA4SHIxUzFGamhPMzNhWVV0cDJJQmN6dE43ZWxqNFNCMGZ1azRNcU9DY2tQa0lsQ2hTOWtmWmxOY3V1aUhWTzNJbHFCWVh3NU1WOEN2RnFJc1E?oc=5",
+      "publishedAt": "2025-06-04T07:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "finance",
+        "label": "金融要闻",
         "hits": [
-          "证监会",
-          "公告"
+          "美元",
+          "经济数据"
         ]
       },
       "source": {
         "pattern": {},
-        "label": "监管机构",
+        "label": "CME",
         "tier": "权威官方",
-        "score": 100,
-        "host": "csrc.gov.cn"
+        "score": 88,
+        "host": "news.google.com"
       },
       "rank": {
         "score": 88,
@@ -1105,34 +1327,34 @@
         "action": "建议关注"
       },
       "businessLines": [
-        "管理参考"
+        "投研"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
     },
     {
-      "id": "中国证监会修订发布公开募集证券投资基金销售费用管理规定-1778478324772",
-      "title": "中国证监会修订发布《公开募集证券投资基金销售费用管理规定》",
-      "summary": "中国证监会-公告发布的最新公告。",
-      "sourceName": "中国证监会-公告",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7606047/content.shtml",
-      "publishedAt": "",
+      "id": "美元开年反弹但动力不足本周聚焦经济数据及官员讲话-2026-01-07T08:00:00.000Z",
+      "title": "美元开年反弹但动力不足 本周聚焦经济数据及官员讲话",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY1pvTFpYNVdrbFBuMXFJREpWb21aZHF2XzFvV2RFTFRSUWNtcU9WQkpfdmp4MDFDVElXTlhqTFJkd3ZqMlp4U3JPTGZvYXBXTG",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY1pvTFpYNVdrbFBuMXFJREpWb21aZHF2XzFvV2RFTFRSUWNtcU9WQkpfdmp4MDFDVElXTlhqTFJkd3ZqMlp4U3JPTGZvYXBXTGkxTDdnbWItZHN1eGp3MTVCeXZNTVhNTl9oSVBoZlk3SnBoTjJ0ZmxTWl9OZ2g1RUNMTTZFWElR?oc=5",
+      "publishedAt": "2026-01-07T08:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "finance",
+        "label": "金融要闻",
         "hits": [
-          "证监会",
-          "公告"
+          "美元",
+          "经济数据"
         ]
       },
       "source": {
         "pattern": {},
-        "label": "监管机构",
+        "label": "CME",
         "tier": "权威官方",
-        "score": 100,
-        "host": "csrc.gov.cn"
+        "score": 88,
+        "host": "news.google.com"
       },
       "rank": {
         "score": 88,
@@ -1140,34 +1362,34 @@
         "action": "建议关注"
       },
       "businessLines": [
-        "管理参考"
+        "投研"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
     },
     {
-      "id": "关于2026年山东辖区公司企业债券发行人现场检查随机抽取名单的公告-1778478324772",
-      "title": "关于2026年山东辖区公司（企业）债券发行人现场检查随机抽取名单的公告",
-      "summary": "中国证监会-公告发布的最新公告。",
-      "sourceName": "中国证监会-公告",
-      "url": "https://www.csrc.gov.cn/shandong/c104210/c7631511/content.shtml",
-      "publishedAt": "",
+      "id": "降息预期推动美元下行本周多重磅经济数据将公布-2025-08-13T07:00:00.000Z",
+      "title": "降息预期推动美元下行 本周多重磅经济数据将公布",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5aNjB0WGpUbjlVeUlmTW5YVHB5bi1jRm9HQUM2WktHSVBKNk4ySXpZWHZ0d2hrUTg3a3JsVGYwaVhUcHE2LTc0RXowQjkxT0ZVUW",
+      "sourceName": "CME Group",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aNjB0WGpUbjlVeUlmTW5YVHB5bi1jRm9HQUM2WktHSVBKNk4ySXpZWHZ0d2hrUTg3a3JsVGYwaVhUcHE2LTc0RXowQjkxT0ZVUWJuV2dzSVZmcnBvbkJKRk1zZkc4bFoxSG1RcmhTVmN4aEUzcGc?oc=5",
+      "publishedAt": "2025-08-13T07:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "finance",
+        "label": "金融要闻",
         "hits": [
-          "证监会",
-          "公告"
+          "美元",
+          "经济数据"
         ]
       },
       "source": {
         "pattern": {},
-        "label": "监管机构",
+        "label": "CME",
         "tier": "权威官方",
-        "score": 100,
-        "host": "csrc.gov.cn"
+        "score": 88,
+        "host": "news.google.com"
       },
       "rank": {
         "score": 88,
@@ -1175,52 +1397,17 @@
         "action": "建议关注"
       },
       "businessLines": [
-        "管理参考"
+        "投研"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "中"
     },
     {
-      "id": "关于对拓维信息系统股份有限公司采取责令改正并对相关人员采取出具警示函监督管理措施的决-1778478324772",
-      "title": "关于对拓维信息系统股份有限公司采取责令改正并对相关人员采取出具警示函监督管理措施的决定",
-      "summary": "中国证监会-公告发布的最新公告。",
-      "sourceName": "中国证监会-公告",
-      "url": "https://www.csrc.gov.cn/hunan/c104484/c7631469/content.shtml",
-      "publishedAt": "",
-      "rawText": "",
-      "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "证监会",
-          "公告"
-        ]
-      },
-      "source": {
-        "pattern": {},
-        "label": "监管机构",
-        "tier": "权威官方",
-        "score": 100,
-        "host": "csrc.gov.cn"
-      },
-      "rank": {
-        "score": 88,
-        "importance": "中",
-        "action": "建议关注"
-      },
-      "businessLines": [
-        "管理参考"
-      ],
-      "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-      "confidence": "高"
-    },
-    {
-      "id": "中国证监会发布证券期货市场监督管理措施实施办法-1778478324772",
+      "id": "中国证监会发布证券期货市场监督管理措施实施办法-1778479327433",
       "title": "中国证监会发布《证券期货市场监督管理措施实施办法》",
-      "summary": "中国证监会-新闻发布的最新公告。",
-      "sourceName": "中国证监会-新闻",
+      "summary": "中国证监会-公告发布的最新公告。",
+      "sourceName": "中国证监会-公告",
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7606032/content.shtml",
       "publishedAt": "",
       "rawText": "",
@@ -1228,8 +1415,7 @@
         "id": "regulation",
         "label": "监管与交易所",
         "hits": [
-          "证监会",
-          "公告"
+          "证监会"
         ]
       },
       "source": {
@@ -1252,10 +1438,10 @@
       "confidence": "高"
     },
     {
-      "id": "中国证监会发布关于修改证券期货行政执法当事人承诺制度实施规定的决定-1778478324772",
+      "id": "中国证监会发布关于修改证券期货行政执法当事人承诺制度实施规定的决定-1778479327433",
       "title": "中国证监会发布关于修改《证券期货行政执法当事人承诺制度实施规定》的决定",
-      "summary": "中国证监会-新闻发布的最新公告。",
-      "sourceName": "中国证监会-新闻",
+      "summary": "中国证监会-公告发布的最新公告。",
+      "sourceName": "中国证监会-公告",
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7606003/content.shtml",
       "publishedAt": "",
       "rawText": "",
@@ -1263,8 +1449,7 @@
         "id": "regulation",
         "label": "监管与交易所",
         "hits": [
-          "证监会",
-          "公告"
+          "证监会"
         ]
       },
       "source": {
@@ -1287,10 +1472,10 @@
       "confidence": "高"
     },
     {
-      "id": "征求意见反馈-1778478324772",
+      "id": "征求意见反馈-1778479327434",
       "title": "征求意见反馈",
-      "summary": "中国证监会-新闻发布的最新公告。",
-      "sourceName": "中国证监会-新闻",
+      "summary": "中国证监会-公告发布的最新公告。",
+      "sourceName": "中国证监会-公告",
       "url": "https://www.csrc.gov.cn/csrc/c100114/common_list.shtml",
       "publishedAt": "",
       "rawText": "",
@@ -1299,7 +1484,7 @@
         "label": "监管与交易所",
         "hits": [
           "证监会",
-          "公告"
+          "征求意见"
         ]
       },
       "source": {
@@ -1322,7 +1507,7 @@
       "confidence": "高"
     },
     {
-      "id": "关于就期货公司监督管理办法征求意见稿关于实施有关事项的公告征求意见稿征求意见的通知-1778478324772",
+      "id": "关于就期货公司监督管理办法征求意见稿关于实施有关事项的公告征求意见稿征求意见的通知-1778479327434",
       "title": "关于就《期货公司监督管理办法（征求意见稿）》《关于实施有关事项的公告（征求意见稿）》征求意见的通知",
       "summary": "中国证监会-新闻发布的最新公告。",
       "sourceName": "中国证监会-新闻",
@@ -1334,8 +1519,7 @@
         "label": "监管与交易所",
         "hits": [
           "证监会",
-          "公告",
-          "通知"
+          "征求意见"
         ]
       },
       "source": {
@@ -1358,7 +1542,171 @@
       "confidence": "高"
     },
     {
-      "id": "期货公司月度经营数据-1778478324773",
+      "id": "期货市场对外开放再迎里程碑！上期所最新公告-2026-03-22T07:00:00.000Z",
+      "title": "期货市场对外开放再迎里程碑！上期所最新公告",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBOWm1LYms3RVJwWmFVM2dhM2ZNYWxPRGZSTWxsMDlDYnRlUjR6aDNUSHNrTjF5a013eVU5bDdXanF2Y3lFdExTc3FaVWZvRDg4RH",
+      "sourceName": "证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBOWm1LYms3RVJwWmFVM2dhM2ZNYWxPRGZSTWxsMDlDYnRlUjR6aDNUSHNrTjF5a013eVU5bDdXanF2Y3lFdExTc3FaVWZvRDg4RHZvTXZVR29vQ2NI?oc=5",
+      "publishedAt": "2026-03-22T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "pattern": {},
+        "label": "证券时报",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 82,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "一季度行业净利近40亿元！上市期货公司表现亮眼，券商给予“买入”评价-2026-05-01T07:00:00.000Z",
+      "title": "一季度行业净利近40亿元！上市期货公司表现亮眼，券商给予“买入”评价",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE00QTlYZjQybHkwV3dydVZkOWxJQ0FGcnFNdW5qRmk1ZXY1YVZEWmNId05aTDhOUDBNTUllaVNQV1d4V09uYkExaUEta0tFWHE4SX",
+      "sourceName": "证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00QTlYZjQybHkwV3dydVZkOWxJQ0FGcnFNdW5qRmk1ZXY1YVZEWmNId05aTDhOUDBNTUllaVNQV1d4V09uYkExaUEta0tFWHE4SXNYWXFHX2xSZXhG?oc=5",
+      "publishedAt": "2026-05-01T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "peer",
+        "label": "同行动态",
+        "hits": [
+          "期货公司"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "证券时报",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 82,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
+      "confidence": "中"
+    },
+    {
+      "id": "优化合规管理方式，助力期货行业稳健发展-2023-10-30T07:00:00.000Z",
+      "title": "优化合规管理方式，助力期货行业稳健发展",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JN05EWlFEUGF3X2UxQW1PVXJMX2U0ZEJ6WVNKamhyY2F5VHRNZXQ3dWQ1aVZ2ZDl4S3FMVHo0YkRDeFFwLWlfZVdxbTgwdGstYT",
+      "sourceName": "证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JN05EWlFEUGF3X2UxQW1PVXJMX2U0ZEJ6WVNKamhyY2F5VHRNZXQ3dWQ1aVZ2ZDl4S3FMVHo0YkRDeFFwLWlfZVdxbTgwdGstYThsMWVvQjE3anlV?oc=5",
+      "publishedAt": "2023-10-30T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "peer",
+        "label": "同行动态",
+        "hits": [
+          "合规"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "证券时报",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 82,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "合规"
+      ],
+      "varieties": [],
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
+      "confidence": "中"
+    },
+    {
+      "id": "证券时报社副社长高玉梅：期货行业迈向高质量发展新征程-2024-12-13T08:00:00.000Z",
+      "title": "证券时报社副社长高玉梅： 期货行业迈向高质量发展新征程",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtOVJIb1B1cEY5My1lZXl1UURKdWs5VWRwN3VSQ3VPWmVtQVB4ZUlqRTA3MWZCYkc1QW9MR2dGbHRrSWJxSUJSSUhTN2lnU29KSF",
+      "sourceName": "证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtOVJIb1B1cEY5My1lZXl1UURKdWs5VWRwN3VSQ3VPWmVtQVB4ZUlqRTA3MWZCYkc1QW9MR2dGbHRrSWJxSUJSSUhTN2lnU29KSFFZQThIcFJmMXZ2?oc=5",
+      "publishedAt": "2024-12-13T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "pattern": {},
+        "label": "证券时报",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 82,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "“增资潮”重塑期货行业竞争格局-2025-12-15T08:00:00.000Z",
+      "title": "“增资潮”重塑期货行业竞争格局",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mRGxqYzdCWUtWZFV6S1YzdVBzVFJvcWc1ekFQZWlQY19aTDVOQ1h5V0M1RVBsYnRrZGh4bzN6c2hSNjFJVGlxaURtTV9OVnVqY3",
+      "sourceName": "证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mRGxqYzdCWUtWZFV6S1YzdVBzVFJvcWc1ekFQZWlQY19aTDVOQ1h5V0M1RVBsYnRrZGh4bzN6c2hSNjFJVGlxaURtTV9OVnVqY3RWN0tEMV9TV3kx?oc=5",
+      "publishedAt": "2025-12-15T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "pattern": {},
+        "label": "证券时报",
+        "tier": "主流媒体",
+        "score": 82,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 82,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "期货公司月度经营数据-1778479327434",
       "title": "期货公司月度经营数据",
       "summary": "中国期货业协会发布的最新公告。",
       "sourceName": "中国期货业协会",
@@ -1366,10 +1714,11 @@
       "publishedAt": "",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "peer",
+        "label": "同行动态",
         "hits": [
-          "公告"
+          "期货公司",
+          "月度经营"
         ]
       },
       "source": {
@@ -1388,11 +1737,11 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
       "confidence": "高"
     },
     {
-      "id": "期货行业服务实体经济数据-1778478324773",
+      "id": "期货行业服务实体经济数据-1778479327434",
       "title": "期货行业服务实体经济数据",
       "summary": "中国期货业协会发布的最新公告。",
       "sourceName": "中国期货业协会",
@@ -1400,10 +1749,10 @@
       "publishedAt": "",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
+        "id": "peer",
+        "label": "同行动态",
         "hits": [
-          "公告"
+          "服务实体"
         ]
       },
       "source": {
@@ -1423,16 +1772,84 @@
         "经纪业务"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
       "confidence": "高"
     },
     {
-      "id": "DOEhasreleased17.5millionbarrelsfromtheStr-1778478324773",
-      "title": "DOE has released 17.5 million barrels from the Strategic Petroleum Reserve since March",
-      "summary": "Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government",
-      "sourceName": "EIA",
-      "url": "https://www.eia.gov/todayinenergy/detail.php?id=67625",
-      "publishedAt": "",
+      "id": "强调资管业务“含期量”，期货公司监督管理办法征求意见稿更新，关注五大重点提法-2026-04-18T07:00:00.000Z",
+      "title": "强调资管业务“含期量”，期货公司监督管理办法征求意见稿更新，关注五大重点提法",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KQnRDN3VpTWZ3X3RjZG1RQ0lITE40dEszcmxOZWF1SUZ0VVYzMXRiVThPQURrMTVjZ3AzQWs2LUN1elBveUQyeg?oc=5\" targe",
+      "sourceName": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KQnRDN3VpTWZ3X3RjZG1RQ0lITE40dEszcmxOZWF1SUZ0VVYzMXRiVThPQURrMTVjZ3AzQWs2LUN1elBveUQyeg?oc=5",
+      "publishedAt": "2026-04-18T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "征求意见"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "财联社",
+        "tier": "财经媒体",
+        "score": 78,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 78,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "confidence": "中"
+    },
+    {
+      "id": "年内首现两家期货公司被罚停开新业务，去年四季度已见密集信号-2026-02-28T08:00:00.000Z",
+      "title": "年内首现两家期货公司被罚停开新业务，去年四季度已见密集信号",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9KMzJneG5IcTRUbVBTTWtOVGVUTEd1X0x1WEVnTkpyYkFSQW1vcGFRTFcyUUFhN2RjT01MQzdvcnlYU1RBLWtQTQ?oc=5\" targe",
+      "sourceName": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9KMzJneG5IcTRUbVBTTWtOVGVUTEd1X0x1WEVnTkpyYkFSQW1vcGFRTFcyUUFhN2RjT01MQzdvcnlYU1RBLWtQTQ?oc=5",
+      "publishedAt": "2026-02-28T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "peer",
+        "label": "同行动态",
+        "hits": [
+          "期货公司"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "财联社",
+        "tier": "财经媒体",
+        "score": 78,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 78,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
+      "confidence": "中"
+    },
+    {
+      "id": "期货市场大动作！QFII和RQFII可参与金融衍生品交易品种扩容了，41个期货期权品-2022-09-02T07:00:00.000Z",
+      "title": "期货市场大动作！QFII和RQFII可参与金融衍生品交易品种扩容了，41个期货期权品种可吸金",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5INHNZNzVjb2Jrc2NIZVVtTkhzSEJTVkdlcmp1LXBBRXA3eS03QnVBRzgyT19FZkdycnpya1NCSXhjeW1IQnJZUA?oc=5\" targe",
+      "sourceName": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5INHNZNzVjb2Jrc2NIZVVtTkhzSEJTVkdlcmp1LXBBRXA3eS03QnVBRzgyT19FZkdycnpya1NCSXhjeW1IQnJZUA?oc=5",
+      "publishedAt": "2022-09-02T07:00:00.000Z",
       "rawText": "",
       "category": {
         "id": "general",
@@ -1441,30 +1858,298 @@
       },
       "source": {
         "pattern": {},
-        "label": "海外官方数据",
-        "tier": "权威官方",
-        "score": 88,
-        "host": "eia.gov"
+        "label": "财联社",
+        "tier": "财经媒体",
+        "score": 78,
+        "host": "news.google.com"
       },
       "rank": {
-        "score": 76,
+        "score": 78,
         "importance": "一般",
         "action": "一般参考"
       },
       "businessLines": [
-        "管理参考"
+        "经纪业务"
       ],
       "varieties": [],
       "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "中"
     },
     {
-      "id": "Seeallreports&publications-1778478324773",
-      "title": "See all reports & publications",
-      "summary": "Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government",
-      "sourceName": "EIA",
-      "url": "https://www.eia.gov/reports/index.php",
-      "publishedAt": "",
+      "id": "实盘赛首月明星品种来了！持仓最大、成交最大、盈利最多的品种分别是……-2023-04-30T07:00:00.000Z",
+      "title": "实盘赛首月明星品种来了！持仓最大、成交最大、盈利最多的品种分别是……",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOS0JHUTZEd1RTRTV0c1BIU2hKRGthYjZMTk83QzQ0WVZqYmRTODNINks0YkJvTDY5QXdQOFBrZ3AyWDlFT0NYQ1doZnZMTW03VD",
+      "sourceName": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS0JHUTZEd1RTRTV0c1BIU2hKRGthYjZMTk83QzQ0WVZqYmRTODNINks0YkJvTDY5QXdQOFBrZ3AyWDlFT0NYQ1doZnZMTW03VDdTR3lmZF82cXJYdVprVU85LWpqUU1acDk1YnlLb2Q0czkwNjVzV0dWVExickV1QlZabFhyRExrdm53NFVPX0Q?oc=5",
+      "publishedAt": "2023-04-30T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "variety",
+        "label": "品种异动",
+        "hits": [
+          "持仓"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "新浪财经",
+        "tier": "财经媒体",
+        "score": 68,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 78,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "风控"
+      ],
+      "varieties": [],
+      "why": "属于品种异动类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "国务院办公厅转发中国证监会等部门关于加强监管防范风险促进期货市场高质量发展的意见的通-2024-10-12T07:00:00.000Z",
+      "title": "国务院办公厅转发中国证监会等部门《关于加强监管防范风险促进期货市场高质量发展的意见》的通知",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1hWEZJeWF1c25iV1BfUjJkaDFVbUlZb1FMdTlaUkQwZ3RlWFdZSmNiTGktRDVhWFl5Qi1IWVM5QnR6NHQ4c1l6UU9XTHczOGlfZW",
+      "sourceName": "中华人民共和国生态环境部",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hWEZJeWF1c25iV1BfUjJkaDFVbUlZb1FMdTlaUkQwZ3RlWFdZSmNiTGktRDVhWFl5Qi1IWVM5QnR6NHQ4c1l6UU9XTHczOGlfZW9HN05rel9XYVRTX2hZN3h1TlYydVB6VGNhNVNJMkttdw?oc=5",
+      "publishedAt": "2024-10-12T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "label": "中华人民共和国生态环境部",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 76,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "风控",
+        "合规",
+        "客户服务"
+      ],
+      "varieties": [],
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "中国证监会与新加坡金管局举行第七届中新证券期货监管圆桌会_中国证券监督管理委员会-2023-05-24T07:00:00.000Z",
+      "title": "中国证监会与新加坡金管局举行第七届中新证券期货监管圆桌会_中国证券监督管理委员会",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1BOGZxTGlYZ2NzZ0hfOEFLb1NRSmI2bFJ4V2d4XzVZVzIwR2Z4YWp5RXJad2EzU0R3cWlkdjhaLUlsLXhtZzJNcU5jRm81dk83R1",
+      "sourceName": "csrc.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BOGZxTGlYZ2NzZ0hfOEFLb1NRSmI2bFJ4V2d4XzVZVzIwR2Z4YWp5RXJad2EzU0R3cWlkdjhaLUlsLXhtZzJNcU5jRm81dk83R1Awdm4wZlVhcm9fRTRZTkkyUHNoNWItZHc?oc=5",
+      "publishedAt": "2023-05-24T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "label": "csrc.gov.cn",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 76,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "合规"
+      ],
+      "varieties": [],
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "证监会修订期货公司监管办法，拟将境内子公司金融业务收归期货公司经营-2026-04-18T07:00:00.000Z",
+      "title": "证监会修订期货公司监管办法，拟将境内子公司金融业务收归期货公司经营",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aSy1mSzhNT09JaHRKai14MTFKdXpDX0JXMlU0cWJJd3hMZWtzOURJcWhPNlZ6XzFWckxhcGR2amxac1RaTEtvZ3VNSTRPbEJmaG",
+      "sourceName": "thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aSy1mSzhNT09JaHRKai14MTFKdXpDX0JXMlU0cWJJd3hMZWtzOURJcWhPNlZ6XzFWckxhcGR2amxac1RaTEtvZ3VNSTRPbEJmaGNLY1ladE00T3d5UGc?oc=5",
+      "publishedAt": "2026-04-18T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "label": "thepaper.cn",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 76,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "合规"
+      ],
+      "varieties": [],
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "衍生品交易进入监管新阶段-2023-03-22T07:00:00.000Z",
+      "title": "衍生品交易进入监管新阶段",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9KeE5QLWw1SW40STY5Nmp1UEVnMjd4U00tbmN2LUFzNWFtMGZHcjkxc3hEekVVZGN4ZWxvRHR6RlRIc2lMcHNpcmFTOEE5TnItZW",
+      "sourceName": "经济日报",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KeE5QLWw1SW40STY5Nmp1UEVnMjd4U00tbmN2LUFzNWFtMGZHcjkxc3hEekVVZGN4ZWxvRHR6RlRIc2lMcHNpcmFTOEE5TnItZWFBQzNzc2MtdG1CcUk3M1hQWERsbzd3X1E2ag?oc=5",
+      "publishedAt": "2023-03-22T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "label": "经济日报",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 76,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "合规",
+        "经纪业务"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "监管部门禁止机构通过股指期货做空A股？证监会回应！-2024-02-22T12:24:31.000Z",
+      "title": "监管部门禁止机构通过股指期货做空A股？证监会回应！",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hOVpYQng2Y0FHMTlGVmpCOUpUbE8yRkpxbktrYTUzVzdIaEV4b1UzeEhhcC1EQy1BWGJ5eVVBQWJ2ZVJmZnhQUG1ZeWZ3VUZjdE",
+      "sourceName": "每日经济新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hOVpYQng2Y0FHMTlGVmpCOUpUbE8yRkpxbktrYTUzVzdIaEV4b1UzeEhhcC1EQy1BWGJ5eVVBQWJ2ZVJmZnhQUG1ZeWZ3VUZjdEE5RVZKLVpLdl9FYmd5WWIxbkpsZw?oc=5",
+      "publishedAt": "2024-02-22T12:24:31.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "label": "每日经济新闻",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 76,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "合规"
+      ],
+      "varieties": [
+        "金融期货"
+      ],
+      "why": "涉及金融期货相关品种，适合纳入市场跟踪和业务提示。",
+      "confidence": "观察"
+    },
+    {
+      "id": "中国证监会推进“看穿式”监管加强期货客户交易终端信息采集-2018-09-14T07:00:00.000Z",
+      "title": "中国证监会推进“看穿式”监管 加强期货客户交易终端信息采集",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE1MUHV3NjctdHA0ek9LOXNhYnpnNGJCSUNMTVgzN2NmTTdIRGZlSkk4MjkwWXV2QzdJXzhiMTFnaUhGak8yN3Z3U1VBQzBUeXJ6MG",
+      "sourceName": "新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MUHV3NjctdHA0ek9LOXNhYnpnNGJCSUNMTVgzN2NmTTdIRGZlSkk4MjkwWXV2QzdJXzhiMTFnaUhGak8yN3Z3U1VBQzBUeXJ6MG5SamgzcGgweTd5QzFwWWZsdmI1aGhzYklMRkwwdjUwQnBv?oc=5",
+      "publishedAt": "2018-09-14T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "label": "新浪新闻_手机新浪网",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 76,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "经纪业务",
+        "合规",
+        "客户服务"
+      ],
+      "varieties": [],
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "深圳市期货业协会组织召开传达学习贯彻党的二十届三中全会精神专题会议_深圳监管局-2024-07-29T07:00:00.000Z",
+      "title": "深圳市期货业协会组织召开传达学习贯彻党的二十届三中全会精神专题会议_深圳监管局",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE14eTR0NjBTcXVuY19CUDBZSjFlX0N3TTEtSG1pV2NJeURHRDAtdmhRdVRKZFlkRk5tRHo2R09oazEwQ1Bxa3B4NG9JNmwzbk50Z1",
+      "sourceName": "csrc.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14eTR0NjBTcXVuY19CUDBZSjFlX0N3TTEtSG1pV2NJeURHRDAtdmhRdVRKZFlkRk5tRHo2R09oazEwQ1Bxa3B4NG9JNmwzbk50Z1RMbDBjU3duYk5MU0FleXVLaTlDX2p4TEtvLW9tMHY?oc=5",
+      "publishedAt": "2024-07-29T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "label": "csrc.gov.cn",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 76,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "合规"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "资本市场开放再迎利好！即日起，QFII、RQFII可以交易这些商品期货、期权了-2022-09-02T07:00:00.000Z",
+      "title": "资本市场开放再迎利好！即日起，QFII、RQFII可以交易这些商品期货、期权了",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxb1E2RHVoZF8yZ3JzWkFHZ1VLWWExN2J6TFRNWnZsazVBU1libGR5dEhkTmNpTXFGbnVHMHowU3pJcmlGSUxhYThfRDNoVXYwOH",
+      "sourceName": "华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxb1E2RHVoZF8yZ3JzWkFHZ1VLWWExN2J6TFRNWnZsazVBU1libGR5dEhkTmNpTXFGbnVHMHowU3pJcmlGSUxhYThfRDNoVXYwOHhz?oc=5",
+      "publishedAt": "2022-09-02T07:00:00.000Z",
       "rawText": "",
       "category": {
         "id": "general",
@@ -1473,45 +2158,46 @@
       },
       "source": {
         "pattern": {},
-        "label": "海外官方数据",
-        "tier": "权威官方",
-        "score": 88,
-        "host": "eia.gov"
+        "label": "华尔街见闻",
+        "tier": "财经媒体",
+        "score": 74,
+        "host": "news.google.com"
       },
       "rank": {
-        "score": 76,
+        "score": 74,
         "importance": "一般",
         "action": "一般参考"
       },
       "businessLines": [
-        "管理参考"
+        "经纪业务"
       ],
       "varieties": [],
       "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "中"
     },
     {
-      "id": "Analysis&ProjectionsMonthlyandyearlyenergy-1778478324773",
-      "title": "Analysis & Projections Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.",
-      "summary": "Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government",
-      "sourceName": "EIA",
-      "url": "https://www.eia.gov/analysis/",
-      "publishedAt": "",
+      "id": "霍瑞戎履新上交所副理事长曾任证监会国际合作司司长-2025-09-10T07:00:00.000Z",
+      "title": "霍瑞戎履新上交所副理事长 曾任证监会国际合作司司长",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOTzRrV2dSbWNQZkpZQ2RONWw4Z1ZvSmY4dGJlNERxZ2R4VzNCaWRiVExVcTJzcGtHNnJIdEN4UjN6d1l3RDdNaVBXc2dIWmIxSD",
+      "sourceName": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTzRrV2dSbWNQZkpZQ2RONWw4Z1ZvSmY4dGJlNERxZ2R4VzNCaWRiVExVcTJzcGtHNnJIdEN4UjN6d1l3RDdNaVBXc2dIWmIxSDhveEFDalczbFpoT2N1emVhX0FwZ0tUVnRsYWVjVzFQZ01pdzBxNFNMSjJsbnBqbEo2RG5kZUV4VzY4bC02TQ?oc=5",
+      "publishedAt": "2025-09-10T07:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "general",
-        "label": "综合资讯",
-        "hits": []
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
       },
       "source": {
-        "pattern": {},
-        "label": "海外官方数据",
-        "tier": "权威官方",
-        "score": 88,
-        "host": "eia.gov"
+        "label": "财经媒体",
+        "tier": "财经媒体",
+        "score": 72,
+        "host": "news.google.com"
       },
       "rank": {
-        "score": 76,
+        "score": 72,
         "importance": "一般",
         "action": "一般参考"
       },
@@ -1519,80 +2205,221 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
       "confidence": "中"
     },
     {
-      "id": "EIAreleasestheAnnualEnergyOutlook2026-1778478324773",
-      "title": "EIA releases the Annual Energy Outlook 2026",
-      "summary": "Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government",
-      "sourceName": "EIA",
-      "url": "https://www.eia.gov/pressroom/releases/press587.php",
-      "publishedAt": "",
+      "id": "中金所释放信号！不得对高频交易者减收手续费严重违规者市场禁入-2025-01-08T08:00:00.000Z",
+      "title": "中金所释放信号！不得对高频交易者减收手续费 严重违规者市场禁入",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBMGJaemFTcjdGdXZqZ3BjZlljSncwOFVrdHRuZXdjVUsyU21pNW5VLXA3OVhEek5tazI3djEwNHd3anF2UkFYbjB2VzBFZ2s2eG",
+      "sourceName": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBMGJaemFTcjdGdXZqZ3BjZlljSncwOFVrdHRuZXdjVUsyU21pNW5VLXA3OVhEek5tazI3djEwNHd3anF2UkFYbjB2VzBFZ2s2eGNwOXR1MTFyQ3RRRmxZODRlNVE5QQ?oc=5",
+      "publishedAt": "2025-01-08T08:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "general",
-        "label": "综合资讯",
-        "hits": []
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "手续费"
+        ]
       },
       "source": {
         "pattern": {},
-        "label": "海外官方数据",
-        "tier": "权威官方",
-        "score": 88,
-        "host": "eia.gov"
+        "label": "东方财富",
+        "tier": "财经媒体",
+        "score": 72,
+        "host": "news.google.com"
       },
       "rank": {
-        "score": 76,
+        "score": 72,
         "importance": "一般",
         "action": "一般参考"
       },
       "businessLines": [
-        "管理参考"
+        "经纪业务"
       ],
       "varieties": [],
-      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
       "confidence": "中"
     },
     {
-      "id": "Hormuzclosureandrelatedproductionoutagesar-1778478324774",
-      "title": "Hormuz closure and related production outages are key drivers in EIA’s latest forecast",
-      "summary": "Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government",
-      "sourceName": "EIA",
-      "url": "https://www.eia.gov/pressroom/releases/press586.php",
-      "publishedAt": "",
+      "id": "期货早报|首个草鱼新品种“沪苏1号”问世；分析师：台风天气过后橡胶价格或重新回落-2024-09-11T07:00:00.000Z",
+      "title": "期货早报 | 首个草鱼新品种“沪苏1号”问世；分析师：台风天气过后橡胶价格或重新回落",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1BTSmcxdzc3TTFWTDJSOXp1MEVMSDB6VUpsSnVEOGZ0al83T3hnX2MwYzBVc0ZhNHhHRUEyM3NkdVF5YVl0ck1nWkczTjBEbj",
+      "sourceName": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1BTSmcxdzc3TTFWTDJSOXp1MEVMSDB6VUpsSnVEOGZ0al83T3hnX2MwYzBVc0ZhNHhHRUEyM3NkdVF5YVl0ck1nWkczTjBEbjJyMS1kMkphVS1NYnhnZmxWMDFtNkdnbUZzV2dKcTNFeENNUmFmT3BtN0h3cFZrdkFTNWx3QVZGcWhfVFpWMA?oc=5",
+      "publishedAt": "2024-09-11T07:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "general",
-        "label": "综合资讯",
-        "hits": []
+        "id": "industry",
+        "label": "产业资讯",
+        "hits": [
+          "天气"
+        ]
       },
       "source": {
-        "pattern": {},
-        "label": "海外官方数据",
-        "tier": "权威官方",
-        "score": 88,
-        "host": "eia.gov"
+        "label": "财经媒体",
+        "tier": "财经媒体",
+        "score": 72,
+        "host": "news.google.com"
       },
       "rank": {
-        "score": 76,
+        "score": 72,
         "importance": "一般",
         "action": "一般参考"
       },
       "businessLines": [
         "管理参考"
       ],
-      "varieties": [],
-      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "varieties": [
+        "能化"
+      ],
+      "why": "涉及能化相关品种，适合纳入市场跟踪和业务提示。",
       "confidence": "中"
     },
     {
-      "id": "EIAreleaseslatestShort-TermEnergyOutlookam-1778478324774",
-      "title": "EIA releases latest Short-Term Energy Outlook amid Middle East conflict",
-      "summary": "Energy Information Administration - EIA - Official Energy Statistics from the U.S. Government",
-      "sourceName": "EIA",
-      "url": "https://www.eia.gov/pressroom/releases/press584.php",
-      "publishedAt": "",
+      "id": "期货早报｜超长期特别国债上市首日一度涨超20%-2024-05-23T07:00:00.000Z",
+      "title": "期货早报｜超长期特别国债上市首日一度涨超20%",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNam01dDQ2UUdud3luRnBxWUQwd2dZUGVZNkNVdE1BYm1jY3l1a1JzR2t6ZGdpUGRsQm1IaFp2TXlScWRvc1VBN2ZWLVNvMWVoR2",
+      "sourceName": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNam01dDQ2UUdud3luRnBxWUQwd2dZUGVZNkNVdE1BYm1jY3l1a1JzR2t6ZGdpUGRsQm1IaFp2TXlScWRvc1VBN2ZWLVNvMWVoR2VDTC0wejQzLW5tTkE1R3k2QjBkVkVJcVpveTFxejdNcnd4UFVPT0N3ZWcwbXdycUVMYmM4MWh1TXhQWDVRNA?oc=5",
+      "publishedAt": "2024-05-23T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "label": "财经媒体",
+        "tier": "财经媒体",
+        "score": 72,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 72,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [
+        "金融期货"
+      ],
+      "why": "涉及金融期货相关品种，适合纳入市场跟踪和业务提示。",
+      "confidence": "中"
+    },
+    {
+      "id": "AH股大幅高开：创业板涨3%，算力硬件爆发，油气股上演跌停潮，恒科指暴涨4%，科网股-2026-04-08T07:00:00.000Z",
+      "title": "AH股大幅高开：创业板涨3%，算力硬件爆发，油气股上演跌停潮，恒科指暴涨4%，科网股集体反弹",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoUHNRVlF3LVZiRU1tLThtUVRuZGJ4XzlRdjJZVWNGUFN2eEhPdDdEOU5xNkJlcWtpWW9QT0x2TmpHSjkzLXhiUnJGZmlhdDVIMH",
+      "sourceName": "QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoUHNRVlF3LVZiRU1tLThtUVRuZGJ4XzlRdjJZVWNGUFN2eEhPdDdEOU5xNkJlcWtpWW9QT0x2TmpHSjkzLXhiUnJGZmlhdDVIMHozV1J3?oc=5",
+      "publishedAt": "2026-04-08T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "variety",
+        "label": "品种异动",
+        "hits": [
+          "跌停"
+        ]
+      },
+      "source": {
+        "label": "QQ News",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 70,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于品种异动类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "均胜电子H股发行获中国证监会备案赴港上市计划迈出关键一步|证券|交易所|通知书|期货-2025-10-01T07:00:00.000Z",
+      "title": "均胜电子H 股发行获中国证监会备案 赴港上市计划迈出关键一步|证券|交易所|通知书|期货|后续_手机新浪网",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwJBVV95cUxNTnVSM3dnQXlxNVo0eHFWeDRhY1NlNzV6cTN6U1pXRWlRZnRjYUZaYXJvQ2FPc1Uwd1IzbFBuTTlOanBOYTljVFp3aTlzOHJULT",
+      "sourceName": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNTnVSM3dnQXlxNVo0eHFWeDRhY1NlNzV6cTN6U1pXRWlRZnRjYUZaYXJvQ2FPc1Uwd1IzbFBuTTlOanBOYTljVFp3aTlzOHJULTRSbVN5MHVLQUtreDJFYkZuQmZ2WVZSbC10Q2c5YkFwUnpGTWFZNzlpM29SeGtOUHl1SURKYjBWZ3pScVdfRG01clhmTENXWkZyRDgwMG50dHR1alZucHFDdG93SjBkQnVKZVBaMlVEMFcxZDlkQ3R6ZUhZX0dTY2hiZEduWnUyZWFqSUFuSVE4ekZlMi0xWVNGOHN6RWtNeHl1X2FqVkdwVVNFZ0FMbG9OXzFXMHd2aFNfbmFPdXJLRS15T2RzMkRWQlVXRUxmZVo2VVhCYkxEY1RSWkQ3dnduekVTdEN1bWZqbnBmS0J4eFZWdzNV?oc=5",
+      "publishedAt": "2025-10-01T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会",
+          "交易所"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "新浪财经",
+        "tier": "财经媒体",
+        "score": 68,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 68,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "经纪业务",
+        "客户服务"
+      ],
+      "varieties": [],
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "华创金融徐康团队利剑出鞘：期货行业迈入“合规先行、优胜劣汰”的新里程-2026-04-20T07:00:00.000Z",
+      "title": "【华创金融 徐康团队】利剑出鞘：期货行业迈入“合规先行、优胜劣汰”的新里程",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE11NEZnbWZzcUpvMUdCM1IzRVV4VVdxT3UwZkFyYmMtSC1Fb3ZQWkM0cGlBT0lEemR3LVBvdFJVaEp3c3RIUkNkQ3pISU5xQVllcG",
+      "sourceName": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11NEZnbWZzcUpvMUdCM1IzRVV4VVdxT3UwZkFyYmMtSC1Fb3ZQWkM0cGlBT0lEemR3LVBvdFJVaEp3c3RIUkNkQ3pISU5xQVllcGJMNzFwaW1nZkhQMVEzSHZDdkVXQWNLWExMOGVTbmZmMG8wc3N6SQ?oc=5",
+      "publishedAt": "2026-04-20T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "peer",
+        "label": "同行动态",
+        "hits": [
+          "合规"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "新浪财经",
+        "tier": "财经媒体",
+        "score": 68,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 68,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "合规"
+      ],
+      "varieties": [],
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
+      "confidence": "观察"
+    },
+    {
+      "id": "交易生态！AI应用！信创建设！直击2025恒生期货行业峰会-2025-08-04T07:00:00.000Z",
+      "title": "交易生态！AI应用！信创建设！直击2025恒生期货行业峰会",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9TVVBRT25DVjZFTVEzQnRSS29DR1dNbnRnZms3R3JDVDBKamFIUGNWVkxTX011NkM3SlRUclk4aG9HYzk3THJSNldWNFZpd29TNj",
+      "sourceName": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9TVVBRT25DVjZFTVEzQnRSS29DR1dNbnRnZms3R3JDVDBKamFIUGNWVkxTX011NkM3SlRUclk4aG9HYzk3THJSNldWNFZpd29TNjBnQndDMjcwREkxcmtCNm5kcjZMZ3NzQWlqYzZYVG1mbXNZMS1VRg?oc=5",
+      "publishedAt": "2025-08-04T07:00:00.000Z",
       "rawText": "",
       "category": {
         "id": "general",
@@ -1601,13 +2428,151 @@
       },
       "source": {
         "pattern": {},
-        "label": "海外官方数据",
-        "tier": "权威官方",
-        "score": 88,
-        "host": "eia.gov"
+        "label": "新浪财经",
+        "tier": "财经媒体",
+        "score": 68,
+        "host": "news.google.com"
       },
       "rank": {
-        "score": 76,
+        "score": 68,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "经纪业务"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "华泰期货：津巴布韦扰动逐渐落地，碳酸锂市场多空分歧加剧-2026-04-29T01:42:00.000Z",
+      "title": "华泰期货：津巴布韦扰动逐渐落地，碳酸锂市场多空分歧加剧",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWkRoWHBhb0ZxTzlfNTRyRV9NbzFvSlAtckI1YUFVVzBtdkd4X0pkVUktbF93LWpzek5nLUJkUHhJdkhOaXRLTkNFUWhUQnpSNm",
+      "sourceName": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWkRoWHBhb0ZxTzlfNTRyRV9NbzFvSlAtckI1YUFVVzBtdkd4X0pkVUktbF93LWpzek5nLUJkUHhJdkhOaXRLTkNFUWhUQnpSNm5WS284Rmt1ZWFzc3RjUl9Bdk41em81a0lJSXZiZFNCWDJvTDNiSjZZaGxjVDNzT1lqbWdGTzBoRUktc0x1YmNrRDZiU1dHT0cwMldabktTZWVGeUVTeW4tOUpsRktVTWQzd1lVdDVWaHpKMTNsU29YeXVHX0JyQmRqRTFCV2oyMDdKUUtBM1ZJUUlNRUlEbFdKbw?oc=5",
+      "publishedAt": "2026-04-29T01:42:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "variety",
+        "label": "品种异动",
+        "hits": [
+          "碳酸锂"
+        ]
+      },
+      "source": {
+        "pattern": {},
+        "label": "新浪财经",
+        "tier": "财经媒体",
+        "score": 68,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 68,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [
+        "新能源"
+      ],
+      "why": "涉及新能源相关品种，适合纳入市场跟踪和业务提示。",
+      "confidence": "观察"
+    },
+    {
+      "id": "衍生品专题之二|股指期货贴水的隐喻与机会-2022-08-16T07:00:00.000Z",
+      "title": "衍生品专题之二 | 股指期货贴水的隐喻与机会",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQlFKdG85X1Qxb19xaEVDQl83U0hoN25jOWNKT2FOaDVXckpBMjI4NmdpVHpNbVRLYUMySVJFVjhJRVlTQld5RlNza054YTg3OV",
+      "sourceName": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQlFKdG85X1Qxb19xaEVDQl83U0hoN25jOWNKT2FOaDVXckpBMjI4NmdpVHpNbVRLYUMySVJFVjhJRVlTQld5RlNza054YTg3OVJnQV96NTQteUx2MXB3Z1E0VlVsNGRXVFFPV3dZb3pPcHRWcDhoOVI3Q3hGNGdaQ3FtdkdGOE5L?oc=5",
+      "publishedAt": "2022-08-16T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "pattern": {},
+        "label": "新浪财经",
+        "tier": "财经媒体",
+        "score": 68,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 68,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [
+        "金融期货"
+      ],
+      "why": "涉及金融期货相关品种，适合纳入市场跟踪和业务提示。",
+      "confidence": "观察"
+    },
+    {
+      "id": "禁止机构通过股指期货做空A股？中国证监会回应-2024-02-22T08:00:00.000Z",
+      "title": "禁止机构通过股指期货做空A股？中国证监会回应",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoM1haQ3RhOXBvaG1uck9ObVh4dVIwVndKUGs5aFdKWk9NMl9mME1FM0pIYmdPY2NRamZxSEtRSy1XNzFLc1hGWUNKdkVlQnZfcV",
+      "sourceName": "chinanews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoM1haQ3RhOXBvaG1uck9ObVh4dVIwVndKUGs5aFdKWk9NMl9mME1FM0pIYmdPY2NRamZxSEtRSy1XNzFLc1hGWUNKdkVlQnZfcV9HdGw1djJBamY1SzA2WEh4S3R4VkdO?oc=5",
+      "publishedAt": "2024-02-22T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "label": "chinanews.com.cn",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [
+        "金融期货"
+      ],
+      "why": "涉及金融期货相关品种，适合纳入市场跟踪和业务提示。",
+      "confidence": "观察"
+    },
+    {
+      "id": "证监会拟修订期货公司监督管理办法-2026-04-20T07:00:00.000Z",
+      "title": "证监会拟修订期货公司监督管理办法",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YNm8xYmdCaUVIeG9scGJaSU5Xb3NFZC1ZcVpVekNSd2hIM21tMms0OWt6NEE1WkE5S3Y2cDlxNzd5VEdxVVZ6ZFpZV29sVGxpbG",
+      "sourceName": "七禾网",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YNm8xYmdCaUVIeG9scGJaSU5Xb3NFZC1ZcVpVekNSd2hIM21tMms0OWt6NEE1WkE5S3Y2cDlxNzd5VEdxVVZ6ZFpZV29sVGxpbG5SVQ?oc=5",
+      "publishedAt": "2026-04-20T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "regulation",
+        "label": "监管与交易所",
+        "hits": [
+          "证监会"
+        ]
+      },
+      "source": {
+        "label": "七禾网",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
         "importance": "一般",
         "action": "一般参考"
       },
@@ -1615,8 +2580,268 @@
         "管理参考"
       ],
       "varieties": [],
+      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "49家期货公司去年业绩出炉：中信期货净利突破10亿，永安期货人均薪酬最高-2026-04-26T07:00:00.000Z",
+      "title": "49家期货公司去年业绩出炉：中信期货净利突破10亿，永安期货人均薪酬最高",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE80YnRFMkxuWUFFMjVITE5NVHB5M3FPelRDX1VlU0ZlUUUyOGZzbTZ6THZkZ1NIWlNqZk5oTTE3UHdONEhQMGVmY25NbUpPSTB2TE",
+      "sourceName": "thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80YnRFMkxuWUFFMjVITE5NVHB5M3FPelRDX1VlU0ZlUUUyOGZzbTZ6THZkZ1NIWlNqZk5oTTE3UHdONEhQMGVmY25NbUpPSTB2TE5Td2dhV2FLZzB2Wnc?oc=5",
+      "publishedAt": "2026-04-26T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "peer",
+        "label": "同行动态",
+        "hits": [
+          "期货公司"
+        ]
+      },
+      "source": {
+        "label": "thepaper.cn",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
+      "confidence": "观察"
+    },
+    {
+      "id": "赚麻了！净利润最高增长近940%，A股4家上市期货公司一季度业绩大爆发-2026-04-29T07:00:00.000Z",
+      "title": "赚麻了！净利润最高增长近940%，A股4家上市期货公司一季度业绩大爆发",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5UWjhFUkkwTW1obUpXX01pTXpkUWlqNVktVVdrSFZJU01XU2hNekpUT1RqVmZUblpKajlrSEJNSGV6bWI1eTZrQTlDcE83RlZaUj",
+      "sourceName": "金融界",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UWjhFUkkwTW1obUpXX01pTXpkUWlqNVktVVdrSFZJU01XU2hNekpUT1RqVmZUblpKajlrSEJNSGV6bWI1eTZrQTlDcE83RlZaUjBaMDc3MXJGZzNIcXgtTnJJQ0N3NnFQY0RwQmNfU3ByZ1hy?oc=5",
+      "publishedAt": "2026-04-29T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "peer",
+        "label": "同行动态",
+        "hits": [
+          "期货公司"
+        ]
+      },
+      "source": {
+        "label": "金融界",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "可作为同行管理经验、业务创新或风险案例的参考素材。",
+      "confidence": "观察"
+    },
+    {
+      "id": "坚持稳中求进提升服务能力坚定走好中国特色现代期货市场发展道路——方星海副主席在中国期-2023-09-05T07:00:00.000Z",
+      "title": "坚持稳中求进提升服务能力坚定走好中国特色现代期货市场发展道路——方星海副主席在中国期货业协会第六次会员大会上的讲话_中国证券监督管理委员会",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1GMEZ1RTZ3dGdxRzFzT2V6bFp0cGpmMUQtbGI2bF9QX1hqMU1WZGpQSEJpY0hZclFxUkllaWhlenJ4dU1yVi00RTV2X1hpel8zR2",
+      "sourceName": "csrc.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GMEZ1RTZ3dGdxRzFzT2V6bFp0cGpmMUQtbGI2bF9QX1hqMU1WZGpQSEJpY0hZclFxUkllaWhlenJ4dU1yVi00RTV2X1hpel8zR2dwLV9BZktoLTZONjhNYXNndUlzUXM2ZVE?oc=5",
+      "publishedAt": "2023-09-05T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "label": "csrc.gov.cn",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "经纪业务"
+      ],
+      "varieties": [],
       "why": "属于综合资讯类信息，建议作为日常资讯参考。",
-      "confidence": "中"
+      "confidence": "观察"
+    },
+    {
+      "id": "期货业大消息！QFII、RQFII获准参与期货期权交易，首批涉及41个品种，中国期货-2022-09-04T07:00:00.000Z",
+      "title": "期货业大消息！QFII、RQFII获准参与期货期权交易，首批涉及41个品种，中国期货市场加速对外开放",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUUVczLUdBRnRrSFB2RVNOb1RsMFlkSGJwREhOakt3SVI0SDF1djdBeHZMeEdmNEEtSllWNV9Cc1c1aDNCdkh3dm9XdmRkRTFDMn",
+      "sourceName": "thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUUVczLUdBRnRrSFB2RVNOb1RsMFlkSGJwREhOakt3SVI0SDF1djdBeHZMeEdmNEEtSllWNV9Cc1c1aDNCdkh3dm9XdmRkRTFDMnc?oc=5",
+      "publishedAt": "2022-09-04T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "label": "thepaper.cn",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "经纪业务"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "创业板早盘涨1%，AI算力产业链延续强势，军工板块活跃，恒指小幅上涨，黄金股大幅调整-2026-01-21T08:00:00.000Z",
+      "title": "创业板早盘涨1%，AI算力产业链延续强势， 军工板块活跃，恒指小幅上涨，黄金股大幅调整，商品齐涨",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aMWVEVnF0aWRyblZjQjh4M0x3blhHaUhBQThta2pkS1o4WUNNeE5TdEVHZmU2Zm5yMmZDNXU0bGo3SFN2aFNuRm50ZGtwcTViSl",
+      "sourceName": "yeeyi",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aMWVEVnF0aWRyblZjQjh4M0x3blhHaUhBQThta2pkS1o4WUNNeE5TdEVHZmU2Zm5yMmZDNXU0bGo3SFN2aFNuRm50ZGtwcTViSlNjajNR?oc=5",
+      "publishedAt": "2026-01-21T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "variety",
+        "label": "品种异动",
+        "hits": [
+          "黄金"
+        ]
+      },
+      "source": {
+        "label": "yeeyi",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "投研"
+      ],
+      "varieties": [
+        "贵金属"
+      ],
+      "why": "涉及贵金属相关品种，适合纳入市场跟踪和业务提示。",
+      "confidence": "观察"
+    },
+    {
+      "id": "2025Coinglass衍生品报告：山寨季没来，来的是1546亿美元爆仓季-2025-12-25T08:00:00.000Z",
+      "title": "2025 Coinglass衍生品报告：山寨季没来，来的是1546亿美元爆仓季",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ITGlEQmljaW1xZjZKTVFCOWx6UUF1ZUVRYi1Jb0RQNWZMem5lQkZaREJCSHd2RVlhanFYaDY5SlhlazRVV0thOTI2R1B4QkJRT2",
+      "sourceName": "QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ITGlEQmljaW1xZjZKTVFCOWx6UUF1ZUVRYi1Jb0RQNWZMem5lQkZaREJCSHd2RVlhanFYaDY5SlhlazRVV0thOTI2R1B4QkJRT2JibVRn?oc=5",
+      "publishedAt": "2025-12-25T08:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "美元"
+        ]
+      },
+      "source": {
+        "label": "QQ News",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "管理参考"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "比特币的「11万美元困局」：多空博弈下的市场暗流、机构野心与宏观变量全景透视-2025-05-28T07:00:00.000Z",
+      "title": "比特币的「11 万美元困局」：多空博弈下的市场暗流、机构野心与宏观变量全景透视",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKTGVTN2IxWW9nZFdfVS1PZmJjQnFXdHllcWhrdFVfOGlpTldqdTNDTmgwckdjd2dTQ1NveWk2SG9WZDlQM0NXRXdqTE1zU0tQNH",
+      "sourceName": "深潮TechFlow",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKTGVTN2IxWW9nZFdfVS1PZmJjQnFXdHllcWhrdFVfOGlpTldqdTNDTmgwckdjd2dTQ1NveWk2SG9WZDlQM0NXRXdqTE1zU0tQNHc?oc=5",
+      "publishedAt": "2025-05-28T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "finance",
+        "label": "金融要闻",
+        "hits": [
+          "美元"
+        ]
+      },
+      "source": {
+        "label": "深潮TechFlow",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "投研"
+      ],
+      "varieties": [],
+      "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
+    },
+    {
+      "id": "交易执行中的人工智能为何持续转向期货市场-2026-03-27T07:00:00.000Z",
+      "title": "交易执行中的人工智能为何持续转向期货市场",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgJBVV95cUxNUFhCUkVuWWlMdmJyNDRiTllUZDZhWl81SDhTLVh0ZmhDdEl3NGltOWdCNlI4RENzS3huZV9VM2ZWX3dRNmJNZWhFbWRJVkF4N2",
+      "sourceName": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNUFhCUkVuWWlMdmJyNDRiTllUZDZhWl81SDhTLVh0ZmhDdEl3NGltOWdCNlI4RENzS3huZV9VM2ZWX3dRNmJNZWhFbWRJVkF4N2tsLTBqOXBkamhXQ05Cdlp5T2ltMThhODdHTmFpZmNqNmFINHlyTDNRaHRCak5Mc0FGMUpVTTNLSmlfblRqakZfalNyNUwtRVhURFdEdjRESVUxeE1xaGJXbXlJbDVmcEMtX0hhMk9PT3dYa1M3NXNZcXlDSFpuWWlJcWNwWE43MkFLcmwxUDdYWDdqMllrS195R1lWbXpsZjJJT09TM09ZWFFyS051aUE0dURBUDBIWjVHSDBTbk5jNEdVaHBfd1A2Y2R1bkN4LXBIY1JOcGs5cnJWUTM1ZmgtY2FJX1Nlb2lrcVg0YlhXUkNQZXc?oc=5",
+      "publishedAt": "2026-03-27T07:00:00.000Z",
+      "rawText": "",
+      "category": {
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
+      },
+      "source": {
+        "label": "Yellow.com",
+        "tier": "公开来源",
+        "score": 60,
+        "host": "news.google.com"
+      },
+      "rank": {
+        "score": 60,
+        "importance": "一般",
+        "action": "一般参考"
+      },
+      "businessLines": [
+        "经纪业务"
+      ],
+      "varieties": [],
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+      "confidence": "观察"
     },
     {
       "id": "视频李强签署国务院令公布修订后的中华人民共和国行政复议法实施条例-2026-05-08T00:00:00.000Z",
@@ -1627,11 +2852,9 @@
       "publishedAt": "2026-05-08T00:00:00.000Z",
       "rawText": "",
       "category": {
-        "id": "regulation",
-        "label": "监管与交易所",
-        "hits": [
-          "公告"
-        ]
+        "id": "general",
+        "label": "综合资讯",
+        "hits": []
       },
       "source": {
         "label": "公开来源",
@@ -1648,59 +2871,21 @@
         "管理参考"
       ],
       "varieties": [],
-      "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+      "why": "属于综合资讯类信息，建议作为日常资讯参考。",
       "confidence": "观察"
     }
   ],
   "metrics": {
-    "high": 8,
-    "peer": 0,
-    "finance": 0,
-    "variety": 0,
-    "official": 47
+    "high": 7,
+    "peer": 13,
+    "finance": 17,
+    "variety": 4,
+    "official": 40
   },
   "briefs": {
     "leader": [
       {
-        "id": "关于警惕香港“伪交易所”非法金融活动的风险提示-1778478324772",
-        "title": "关于警惕香港“伪交易所”非法金融活动的风险提示",
-        "summary": "中国证监会-公告发布的最新公告。",
-        "sourceName": "中国证监会-公告",
-        "url": "https://www.csrc.gov.cn/dalian/c101569/c7631665/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "交易所",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "风控",
-          "经纪业务",
-          "客户服务"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响风控、经纪业务、客户服务等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "行政处罚罚款催告书送达公告-1778478324772",
+        "id": "行政处罚罚款催告书送达公告-1778479327433",
         "title": "行政处罚罚款催告书送达公告",
         "summary": "中国证监会-公告发布的最新公告。",
         "sourceName": "中国证监会-公告",
@@ -1712,7 +2897,7 @@
           "label": "监管与交易所",
           "hits": [
             "证监会",
-            "公告"
+            "行政处罚"
           ]
         },
         "source": {
@@ -1735,7 +2920,7 @@
         "confidence": "高"
       },
       {
-        "id": "中国证券监督管理委员会行政处罚决定书-1778478324772",
+        "id": "中国证券监督管理委员会行政处罚决定书-1778479327433",
         "title": "中国证券监督管理委员会行政处罚决定书",
         "summary": "中国证监会-公告发布的最新公告。",
         "sourceName": "中国证监会-公告",
@@ -1747,7 +2932,7 @@
           "label": "监管与交易所",
           "hits": [
             "证监会",
-            "公告"
+            "行政处罚"
           ]
         },
         "source": {
@@ -1770,10 +2955,10 @@
         "confidence": "高"
       },
       {
-        "id": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求-1778478324772",
+        "id": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求-1778479327434",
         "title": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
         "url": "https://www.csrc.gov.cn/csrc/c100107/c1447186/content.shtml",
         "publishedAt": "",
         "rawText": "",
@@ -1781,8 +2966,7 @@
           "id": "regulation",
           "label": "监管与交易所",
           "hits": [
-            "证监会",
-            "公告"
+            "证监会"
           ]
         },
         "source": {
@@ -1806,10 +2990,10 @@
         "confidence": "高"
       },
       {
-        "id": "发行监管问答——关于引导规范上市公司融资行为的监管要求修订版-1778478324772",
+        "id": "发行监管问答——关于引导规范上市公司融资行为的监管要求修订版-1778479327434",
         "title": "发行监管问答——关于引导规范上市公司融资行为的监管要求（修订版）",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
         "url": "https://www.csrc.gov.cn/csrc/c100107/c1447187/content.shtml",
         "publishedAt": "",
         "rawText": "",
@@ -1817,8 +3001,7 @@
           "id": "regulation",
           "label": "监管与交易所",
           "hits": [
-            "证监会",
-            "公告"
+            "证监会"
           ]
         },
         "source": {
@@ -1841,10 +3024,10 @@
         "confidence": "高"
       },
       {
-        "id": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答-1778478324772",
+        "id": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答-1778479327434",
         "title": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
         "url": "https://www.csrc.gov.cn/csrc/c100107/c1447188/content.shtml",
         "publishedAt": "",
         "rawText": "",
@@ -1852,8 +3035,7 @@
           "id": "regulation",
           "label": "监管与交易所",
           "hits": [
-            "证监会",
-            "公告"
+            "证监会"
           ]
         },
         "source": {
@@ -1876,10 +3058,10 @@
         "confidence": "高"
       },
       {
-        "id": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准-1778478324772",
+        "id": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准-1778479327434",
         "title": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
         "url": "https://www.csrc.gov.cn/csrc/c100107/c1447190/content.shtml",
         "publishedAt": "",
         "rawText": "",
@@ -1887,8 +3069,7 @@
           "id": "regulation",
           "label": "监管与交易所",
           "hits": [
-            "证监会",
-            "公告"
+            "证监会"
           ]
         },
         "source": {
@@ -1911,7 +3092,7 @@
         "confidence": "高"
       },
       {
-        "id": "关于就中国证监会行政处罚案件违法所得认定办法征求意见稿公开征求意见的通知-1778478324772",
+        "id": "关于就中国证监会行政处罚案件违法所得认定办法征求意见稿公开征求意见的通知-1778479327434",
         "title": "关于就《中国证监会行政处罚案件违法所得认定办法（征求意见稿）》公开征求意见的通知",
         "summary": "中国证监会-新闻发布的最新公告。",
         "sourceName": "中国证监会-新闻",
@@ -1923,296 +3104,8 @@
           "label": "监管与交易所",
           "hits": [
             "证监会",
-            "公告",
-            "通知"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "合规",
-          "客户服务"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规、客户服务等工作。",
-        "confidence": "高"
-      }
-    ],
-    "employee": [
-      {
-        "id": "关于警惕香港“伪交易所”非法金融活动的风险提示-1778478324772",
-        "title": "关于警惕香港“伪交易所”非法金融活动的风险提示",
-        "summary": "中国证监会-公告发布的最新公告。",
-        "sourceName": "中国证监会-公告",
-        "url": "https://www.csrc.gov.cn/dalian/c101569/c7631665/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "交易所",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "风控",
-          "经纪业务",
-          "客户服务"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响风控、经纪业务、客户服务等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "行政处罚罚款催告书送达公告-1778478324772",
-        "title": "行政处罚罚款催告书送达公告",
-        "summary": "中国证监会-公告发布的最新公告。",
-        "sourceName": "中国证监会-公告",
-        "url": "https://www.csrc.gov.cn/shenzhen/c104305/c7631106/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "合规"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "中国证券监督管理委员会行政处罚决定书-1778478324772",
-        "title": "中国证券监督管理委员会行政处罚决定书",
-        "summary": "中国证监会-公告发布的最新公告。",
-        "sourceName": "中国证监会-公告",
-        "url": "https://www.csrc.gov.cn/csrc/c101928/c7631484/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "合规"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求-1778478324772",
-        "title": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
-        "url": "https://www.csrc.gov.cn/csrc/c100107/c1447186/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "合规",
-          "客户服务"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规、客户服务等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "发行监管问答——关于引导规范上市公司融资行为的监管要求修订版-1778478324772",
-        "title": "发行监管问答——关于引导规范上市公司融资行为的监管要求（修订版）",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
-        "url": "https://www.csrc.gov.cn/csrc/c100107/c1447187/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "合规"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答-1778478324772",
-        "title": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
-        "url": "https://www.csrc.gov.cn/csrc/c100107/c1447188/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "合规"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准-1778478324772",
-        "title": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
-        "url": "https://www.csrc.gov.cn/csrc/c100107/c1447190/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "合规"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "关于就中国证监会行政处罚案件违法所得认定办法征求意见稿公开征求意见的通知-1778478324772",
-        "title": "关于就《中国证监会行政处罚案件违法所得认定办法（征求意见稿）》公开征求意见的通知",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
-        "url": "https://www.csrc.gov.cn/csrc/c101981/c7627021/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "公告",
-            "通知"
+            "行政处罚",
+            "征求意见"
           ]
         },
         "source": {
@@ -2248,7 +3141,7 @@
           "label": "监管与交易所",
           "hits": [
             "证监会",
-            "公告"
+            "行政许可"
           ]
         },
         "source": {
@@ -2260,316 +3153,6 @@
         },
         "rank": {
           "score": 100,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "管理参考"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "风险管理业务-1778478324773",
-        "title": "风险管理业务",
-        "summary": "中国期货业协会发布的最新公告。",
-        "sourceName": "中国期货业协会",
-        "url": "https://www.cfachina.org/businessprocess/riskmanagementbusiness/",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "行业协会",
-          "tier": "权威官方",
-          "score": 94,
-          "host": "cfachina.org"
-        },
-        "rank": {
-          "score": 98,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "风控"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "2026年3月全国期货市场交易情况简报-2026-03-01",
-        "title": "2026年3月全国期货市场交易情况简报",
-        "summary": "中国期货业协会发布的最新公告。",
-        "sourceName": "中国期货业协会",
-        "url": "https://www.cfachina.org/index/zygx/202604/P020260414645266437037.pdf",
-        "publishedAt": "2026-03-01",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "行业协会",
-          "tier": "权威官方",
-          "score": 94,
-          "host": "cfachina.org"
-        },
-        "rank": {
-          "score": 94,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "经纪业务"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "2026年5月期货从业人员资格统一考试公告-2026-03-01",
-        "title": "2026年5月期货从业人员资格统一考试公告",
-        "summary": "中国期货业协会发布的最新公告。",
-        "sourceName": "中国期货业协会",
-        "url": "https://www.cfachina.org/index/zygx/202604/t20260413_87681.html",
-        "publishedAt": "2026-03-01",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "行业协会",
-          "tier": "权威官方",
-          "score": 94,
-          "host": "cfachina.org"
-        },
-        "rank": {
-          "score": 94,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "管理参考"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "关于发布实施期货公司接入外部信息系统管理规则的通知-2026-03-01",
-        "title": "关于发布实施《期货公司接入外部信息系统管理规则》的通知",
-        "summary": "中国期货业协会发布的最新公告。",
-        "sourceName": "中国期货业协会",
-        "url": "https://www.cfachina.org/index/zygx/202604/t20260410_87671.html",
-        "publishedAt": "2026-03-01",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "规则",
-            "公告",
-            "通知"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "行业协会",
-          "tier": "权威官方",
-          "score": 94,
-          "host": "cfachina.org"
-        },
-        "rank": {
-          "score": 94,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "客户服务"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "中期协联合研究计划第十九期研究选题建议征集公告-2026-05-01",
-        "title": "中期协联合研究计划（第十九期）研究选题建议征集公告",
-        "summary": "中国期货业协会发布的最新公告。",
-        "sourceName": "中国期货业协会",
-        "url": "https://www.cfachina.org/index/zygx/202604/t20260408_87611.html",
-        "publishedAt": "2026-05-01",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "行业协会",
-          "tier": "权威官方",
-          "score": 94,
-          "host": "cfachina.org"
-        },
-        "rank": {
-          "score": 94,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "管理参考"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "期货行业提升产业客户参与度，服务实体经济高质量发展倡议书2024-10-18-2024-10-18T00:00:00.000Z",
-        "title": "期货行业提升产业客户参与度，服务实体经济高质量发展倡议书 2024-10-18",
-        "summary": "中国期货业协会发布的最新公告。",
-        "sourceName": "中国期货业协会",
-        "url": "https://www.cfachina.org/industrydynamics/tabloid/202410/t20241018_76368.html",
-        "publishedAt": "2024-10-18T00:00:00.000Z",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "行业协会",
-          "tier": "权威官方",
-          "score": 94,
-          "host": "cfachina.org"
-        },
-        "rank": {
-          "score": 94,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "经纪业务",
-          "投研",
-          "客户服务"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "期货经营机构全面深化党建引领，促进高质量发展倡议书2022-05-19-2024-10-18T00:00:00.000Z",
-        "title": "期货经营机构全面深化党建引领，促进高质量发展倡议书 2022-05-19",
-        "summary": "中国期货业协会发布的最新公告。",
-        "sourceName": "中国期货业协会",
-        "url": "http://www.cfachina.org/aboutassociation/associationannouncement/202205/t20220519_27418.html",
-        "publishedAt": "2024-10-18T00:00:00.000Z",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "行业协会",
-          "tier": "权威官方",
-          "score": 94,
-          "host": "cfachina.org"
-        },
-        "rank": {
-          "score": 94,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "管理参考"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "期货行业全面推进乡村振兴助力实现共同富裕倡议书2022-01-21-2022-05-19T00:00:00.000Z",
-        "title": "期货行业全面推进乡村振兴助力实现共同富裕倡议书 2022-01-21",
-        "summary": "中国期货业协会发布的最新公告。",
-        "sourceName": "中国期货业协会",
-        "url": "http://www.cfachina.org/aboutassociation/associationannouncement/202201/t20220121_25171.html",
-        "publishedAt": "2022-05-19T00:00:00.000Z",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "行业协会",
-          "tier": "权威官方",
-          "score": 94,
-          "host": "cfachina.org"
-        },
-        "rank": {
-          "score": 94,
-          "importance": "中",
-          "action": "建议关注"
-        },
-        "businessLines": [
-          "管理参考"
-        ],
-        "varieties": [],
-        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
-        "confidence": "高"
-      },
-      {
-        "id": "中国人民银行公告〔2026〕第13号-2026-05-09T00:00:00.000Z",
-        "title": "中国人民银行公告〔2026〕第13号",
-        "summary": "中国人民银行发布的最新公告。",
-        "sourceName": "中国人民银行",
-        "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026050611143334640/index.html",
-        "publishedAt": "2026-05-09T00:00:00.000Z",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "政府部门",
-          "tier": "权威官方",
-          "score": 92,
-          "host": "pbc.gov.cn"
-        },
-        "rank": {
-          "score": 92,
           "importance": "中",
           "action": "建议关注"
         },
@@ -2581,47 +3164,9 @@
         "confidence": "高"
       }
     ],
-    "mustRead": [
+    "employee": [
       {
-        "id": "关于警惕香港“伪交易所”非法金融活动的风险提示-1778478324772",
-        "title": "关于警惕香港“伪交易所”非法金融活动的风险提示",
-        "summary": "中国证监会-公告发布的最新公告。",
-        "sourceName": "中国证监会-公告",
-        "url": "https://www.csrc.gov.cn/dalian/c101569/c7631665/content.shtml",
-        "publishedAt": "",
-        "rawText": "",
-        "category": {
-          "id": "regulation",
-          "label": "监管与交易所",
-          "hits": [
-            "证监会",
-            "交易所",
-            "公告"
-          ]
-        },
-        "source": {
-          "pattern": {},
-          "label": "监管机构",
-          "tier": "权威官方",
-          "score": 100,
-          "host": "csrc.gov.cn"
-        },
-        "rank": {
-          "score": 104,
-          "importance": "高",
-          "action": "建议纳入今日重点"
-        },
-        "businessLines": [
-          "风控",
-          "经纪业务",
-          "客户服务"
-        ],
-        "varieties": [],
-        "why": "来源为权威官方，内容涉及监管与交易所，可能影响风控、经纪业务、客户服务等工作。",
-        "confidence": "高"
-      },
-      {
-        "id": "行政处罚罚款催告书送达公告-1778478324772",
+        "id": "行政处罚罚款催告书送达公告-1778479327433",
         "title": "行政处罚罚款催告书送达公告",
         "summary": "中国证监会-公告发布的最新公告。",
         "sourceName": "中国证监会-公告",
@@ -2633,7 +3178,7 @@
           "label": "监管与交易所",
           "hits": [
             "证监会",
-            "公告"
+            "行政处罚"
           ]
         },
         "source": {
@@ -2656,7 +3201,7 @@
         "confidence": "高"
       },
       {
-        "id": "中国证券监督管理委员会行政处罚决定书-1778478324772",
+        "id": "中国证券监督管理委员会行政处罚决定书-1778479327433",
         "title": "中国证券监督管理委员会行政处罚决定书",
         "summary": "中国证监会-公告发布的最新公告。",
         "sourceName": "中国证监会-公告",
@@ -2668,7 +3213,7 @@
           "label": "监管与交易所",
           "hits": [
             "证监会",
-            "公告"
+            "行政处罚"
           ]
         },
         "source": {
@@ -2691,10 +3236,10 @@
         "confidence": "高"
       },
       {
-        "id": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求-1778478324772",
+        "id": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求-1778479327434",
         "title": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
         "url": "https://www.csrc.gov.cn/csrc/c100107/c1447186/content.shtml",
         "publishedAt": "",
         "rawText": "",
@@ -2702,8 +3247,7 @@
           "id": "regulation",
           "label": "监管与交易所",
           "hits": [
-            "证监会",
-            "公告"
+            "证监会"
           ]
         },
         "source": {
@@ -2727,10 +3271,10 @@
         "confidence": "高"
       },
       {
-        "id": "发行监管问答——关于引导规范上市公司融资行为的监管要求修订版-1778478324772",
+        "id": "发行监管问答——关于引导规范上市公司融资行为的监管要求修订版-1778479327434",
         "title": "发行监管问答——关于引导规范上市公司融资行为的监管要求（修订版）",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
         "url": "https://www.csrc.gov.cn/csrc/c100107/c1447187/content.shtml",
         "publishedAt": "",
         "rawText": "",
@@ -2738,8 +3282,7 @@
           "id": "regulation",
           "label": "监管与交易所",
           "hits": [
-            "证监会",
-            "公告"
+            "证监会"
           ]
         },
         "source": {
@@ -2762,10 +3305,10 @@
         "confidence": "高"
       },
       {
-        "id": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答-1778478324772",
+        "id": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答-1778479327434",
         "title": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
         "url": "https://www.csrc.gov.cn/csrc/c100107/c1447188/content.shtml",
         "publishedAt": "",
         "rawText": "",
@@ -2773,8 +3316,7 @@
           "id": "regulation",
           "label": "监管与交易所",
           "hits": [
-            "证监会",
-            "公告"
+            "证监会"
           ]
         },
         "source": {
@@ -2797,10 +3339,10 @@
         "confidence": "高"
       },
       {
-        "id": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准-1778478324772",
+        "id": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准-1778479327434",
         "title": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准",
-        "summary": "中国证监会-新闻发布的最新公告。",
-        "sourceName": "中国证监会-新闻",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
         "url": "https://www.csrc.gov.cn/csrc/c100107/c1447190/content.shtml",
         "publishedAt": "",
         "rawText": "",
@@ -2808,8 +3350,7 @@
           "id": "regulation",
           "label": "监管与交易所",
           "hits": [
-            "证监会",
-            "公告"
+            "证监会"
           ]
         },
         "source": {
@@ -2832,7 +3373,7 @@
         "confidence": "高"
       },
       {
-        "id": "关于就中国证监会行政处罚案件违法所得认定办法征求意见稿公开征求意见的通知-1778478324772",
+        "id": "关于就中国证监会行政处罚案件违法所得认定办法征求意见稿公开征求意见的通知-1778479327434",
         "title": "关于就《中国证监会行政处罚案件违法所得认定办法（征求意见稿）》公开征求意见的通知",
         "summary": "中国证监会-新闻发布的最新公告。",
         "sourceName": "中国证监会-新闻",
@@ -2844,8 +3385,634 @@
           "label": "监管与交易所",
           "hits": [
             "证监会",
-            "公告",
-            "通知"
+            "行政处罚",
+            "征求意见"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "监管机构",
+          "tier": "权威官方",
+          "score": 100,
+          "host": "csrc.gov.cn"
+        },
+        "rank": {
+          "score": 104,
+          "importance": "高",
+          "action": "建议纳入今日重点"
+        },
+        "businessLines": [
+          "合规",
+          "客户服务"
+        ],
+        "varieties": [],
+        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规、客户服务等工作。",
+        "confidence": "高"
+      },
+      {
+        "id": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-5-9-2026-05-08T16:00:00.000Z",
+        "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-5-9",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
+        "url": "https://www.csrc.gov.cn/xiamen/c104096/c7631422/content.shtml",
+        "publishedAt": "2026-05-08T16:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会",
+            "行政许可"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "监管机构",
+          "tier": "权威官方",
+          "score": 100,
+          "host": "csrc.gov.cn"
+        },
+        "rank": {
+          "score": 100,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "管理参考"
+        ],
+        "varieties": [],
+        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+        "confidence": "高"
+      },
+      {
+        "id": "监管释放期货市场防风险促发展信号首提金融期货对外开放-2024-10-11T07:00:00.000Z",
+        "title": "监管释放期货市场防风险促发展信号 首提金融期货对外开放",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uQVRVelVDNUo1WUx0WXk0blMyaF9manM2Mkl1ZUVHa0VDQktvdXhHTEZvbzNER1dsOS1mVjBjVzRKMWdXSjdSNjE1VEVqM2ZwSU",
+        "sourceName": "财新",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uQVRVelVDNUo1WUx0WXk0blMyaF9manM2Mkl1ZUVHa0VDQktvdXhHTEZvbzNER1dsOS1mVjBjVzRKMWdXSjdSNjE1VEVqM2ZwSUhQX29Jc2ZYam1CQWRRdnNn?oc=5",
+        "publishedAt": "2024-10-11T07:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "general",
+          "label": "综合资讯",
+          "hits": []
+        },
+        "source": {
+          "pattern": {},
+          "label": "财新",
+          "tier": "主流媒体",
+          "score": 82,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "风控",
+          "合规"
+        ],
+        "varieties": [],
+        "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "证监会部署！期市程序化交易将迎来全过程监管，突出对高频交易的重点监管-2025-01-18T08:00:00.000Z",
+        "title": "证监会部署！期市程序化交易将迎来全过程监管，突出对高频交易的重点监管",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE56cGdCVnFuaXgwZUE4ejNFOTFWSlZCZm8yM3QyU3Iza056Y3ozemdPS0RVSFc4dV9nNFROYTVLbG1JVW93NDUtdTdNTTZzbW0zUG",
+        "sourceName": "证券时报",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56cGdCVnFuaXgwZUE4ejNFOTFWSlZCZm8yM3QyU3Iza056Y3ozemdPS0RVSFc4dV9nNFROYTVLbG1JVW93NDUtdTdNTTZzbW0zUGxBdjR5VQ?oc=5",
+        "publishedAt": "2025-01-18T08:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "证券时报",
+          "tier": "主流媒体",
+          "score": 82,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "合规",
+          "经纪业务"
+        ],
+        "varieties": [],
+        "why": "属于监管与交易所类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "监管新规重塑期货行业生态“重资本时代”正加速到来-2026-04-21T07:00:00.000Z",
+        "title": "监管新规重塑期货行业生态 “重资本时代”正加速到来",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JTlFJTWgzTmVXdG56aTVlMzlKNURHcUl1TjlwcU1rSEJmdDY4RWRVMjNCNUhTeUdGRFlVOXdmS20wV1JYTHhDTGl1VzFhTGFNUn",
+        "sourceName": "证券时报",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JTlFJTWgzTmVXdG56aTVlMzlKNURHcUl1TjlwcU1rSEJmdDY4RWRVMjNCNUhTeUdGRFlVOXdmS20wV1JYTHhDTGl1VzFhTGFNUnlwclU5d0RrR3Vt?oc=5",
+        "publishedAt": "2026-04-21T07:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "general",
+          "label": "综合资讯",
+          "hits": []
+        },
+        "source": {
+          "pattern": {},
+          "label": "证券时报",
+          "tier": "主流媒体",
+          "score": 82,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "合规"
+        ],
+        "varieties": [],
+        "why": "属于综合资讯类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "美联储降息预期升温主导市场本周多国利率决议来袭-2025-12-11T08:00:00.000Z",
+        "title": "美联储降息预期升温主导市场 本周多国利率决议来袭",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5Wc2NNNkFORWh4NzhqOTdUN19CZ0ZxZlljR191YXFRQ3Fpcm1waTEzSGdqajBGNEZCZkNYQjlaZ3JBM3FkWVY2VUJ1dW9GVVphQn",
+        "sourceName": "CME Group",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Wc2NNNkFORWh4NzhqOTdUN19CZ0ZxZlljR191YXFRQ3Fpcm1waTEzSGdqajBGNEZCZkNYQjlaZ3JBM3FkWVY2VUJ1dW9GVVphQnVGUFl5R0hoZU9PY3BmejdPSmJXeTAza0JoZWpVaG1CXzVYVmc?oc=5",
+        "publishedAt": "2025-12-11T08:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "finance",
+          "label": "金融要闻",
+          "hits": [
+            "利率",
+            "美联储"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "CME",
+          "tier": "权威官方",
+          "score": 88,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "管理参考"
+        ],
+        "varieties": [],
+        "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "地缘避险推升美元继续走强本周全球央行决议成焦点-2026-03-17T07:00:00.000Z",
+        "title": "地缘避险推升美元继续走强 本周全球央行决议成焦点",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNlJYQ0ZYcENIamlwR2wzQ2VHUDJkWTVxdU1QZHpQMUZ3R2VJQ0tjZHBKX3dZcGFYS3lHRi1nR200RWFIRm04SGY5UFRlTHVOTE",
+        "sourceName": "CME Group",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNlJYQ0ZYcENIamlwR2wzQ2VHUDJkWTVxdU1QZHpQMUZ3R2VJQ0tjZHBKX3dZcGFYS3lHRi1nR200RWFIRm04SGY5UFRlTHVOTERTRXU0Y0ZyQVYzOUZjT2JiR3ZCTHhKWVVScm9JZDJkRjZvVHBjbENqT3JwU1RDeGc5QzRvZVpa?oc=5",
+        "publishedAt": "2026-03-17T07:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "finance",
+          "label": "金融要闻",
+          "hits": [
+            "央行",
+            "美元",
+            "地缘"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "CME",
+          "tier": "权威官方",
+          "score": 88,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "管理参考"
+        ],
+        "varieties": [],
+        "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "鸽派美联储施压美元三连跌本周迎多国决议超级周-2025-12-17T08:00:00.000Z",
+        "title": "鸽派美联储施压美元三连跌 本周迎多国决议超级周",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE91SWM5VFBULVRISklXVEpnSExBVmRBbjVQekdoQUdUelRmcllLYy10RXI0bWNPdDZKam1uS0pLNFRuLWNNdkZtOE9TbkFlVzB2OC",
+        "sourceName": "CME Group",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91SWM5VFBULVRISklXVEpnSExBVmRBbjVQekdoQUdUelRmcllLYy10RXI0bWNPdDZKam1uS0pLNFRuLWNNdkZtOE9TbkFlVzB2OC10XzQ5WENVanREcThDRFd5dXRYajlXRHo3aHczaGgyc0xOcEE?oc=5",
+        "publishedAt": "2025-12-17T08:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "finance",
+          "label": "金融要闻",
+          "hits": [
+            "美联储",
+            "美元"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "CME",
+          "tier": "权威官方",
+          "score": 88,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "管理参考"
+        ],
+        "varieties": [],
+        "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "美元受降息预期压制窄幅震荡本周迎央行决议超级周-2025-09-15T07:00:00.000Z",
+        "title": "美元受降息预期压制窄幅震荡 本周迎央行决议超级周",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9MclZTeGxmby13aXdNMk1fYm5CN1F3QUI4YzdBSURTVmEtZTRuQVlkdTR3cFpkSGR3RHdfRVB2bHZpZmYtZWx0NXVkNWlIdk1HNm",
+        "sourceName": "CME Group",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MclZTeGxmby13aXdNMk1fYm5CN1F3QUI4YzdBSURTVmEtZTRuQVlkdTR3cFpkSGR3RHdfRVB2bHZpZmYtZWx0NXVkNWlIdk1HNmxKR21SQ2V6VWtwSjVOZUhUVEYzZ041SEFjY1p2T0lrckxmaWc?oc=5",
+        "publishedAt": "2025-09-15T07:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "finance",
+          "label": "金融要闻",
+          "hits": [
+            "央行",
+            "美元"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "CME",
+          "tier": "权威官方",
+          "score": 88,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "管理参考"
+        ],
+        "varieties": [],
+        "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "圣诞假日市场波澜不惊新年首周聚焦数据与央行信号-2025-12-30T08:00:00.000Z",
+        "title": "圣诞假日市场波澜不惊 新年首周聚焦数据与央行信号",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1zVmNyVWotREpHdzRTakRIWURVV3lfRVRNM2pBdGVSblhIbWNEOGdWMkJSaVVrbm1DOHdZYVRDNXY0cWpPS3cxY29HMXgybEV1RG",
+        "sourceName": "CME Group",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zVmNyVWotREpHdzRTakRIWURVV3lfRVRNM2pBdGVSblhIbWNEOGdWMkJSaVVrbm1DOHdZYVRDNXY0cWpPS3cxY29HMXgybEV1RGt0el9QQWFKdXc3SE8tb2xXLXRZOWpwRWJVQjJyeGhXS3czRHc?oc=5",
+        "publishedAt": "2025-12-30T08:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "finance",
+          "label": "金融要闻",
+          "hits": [
+            "央行"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "CME",
+          "tier": "权威官方",
+          "score": 88,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "管理参考"
+        ],
+        "varieties": [],
+        "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "美联储降息在即，人民币汇率何去何从？-2025-08-22T07:00:00.000Z",
+        "title": "美联储降息在即，人民币汇率何去何从？",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFAyQUV0bXVFNDFBY1JVNTBmWFVDTGFnLVR2S1FNLVF0U0g1SkFXbDdPZ0pidWVlX1NoVjFQelhBUVVSb3JnZkFSWklXY04xRWFwVn",
+        "sourceName": "CME Group",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyQUV0bXVFNDFBY1JVNTBmWFVDTGFnLVR2S1FNLVF0U0g1SkFXbDdPZ0pidWVlX1NoVjFQelhBUVVSb3JnZkFSWklXY04xRWFwVnNPckVZbGRjbTgzYTJsaUxXcmYtcFlsN3Nta3JiZ25pRlBOUE1JYQ?oc=5",
+        "publishedAt": "2025-08-22T07:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "finance",
+          "label": "金融要闻",
+          "hits": [
+            "汇率",
+            "美联储"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "CME",
+          "tier": "权威官方",
+          "score": 88,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "管理参考"
+        ],
+        "varieties": [],
+        "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      },
+      {
+        "id": "美联储发言扭转市场鸽派预期美元指数连续第三周反弹-2025-05-14T07:00:00.000Z",
+        "title": "美联储发言扭转市场鸽派预期 美元指数连续第三周反弹",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5odDF2eDBfN2t3djV6cFpaWkhEcDBvSXp0QWZRYVRtWUx0aFEyTUt1TWFUMjdvS1hia09ETjM2VExIWi1FbU82cTVXc203VkFJZl",
+        "sourceName": "CME Group",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5odDF2eDBfN2t3djV6cFpaWkhEcDBvSXp0QWZRYVRtWUx0aFEyTUt1TWFUMjdvS1hia09ETjM2VExIWi1FbU82cTVXc203VkFJZlh1dkVDOEs5clNYbzRqc2RCMy1CZ3M0Y3pnYmZud3hXVEkwN3c?oc=5",
+        "publishedAt": "2025-05-14T07:00:00.000Z",
+        "rawText": "",
+        "category": {
+          "id": "finance",
+          "label": "金融要闻",
+          "hits": [
+            "美联储",
+            "美元"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "CME",
+          "tier": "权威官方",
+          "score": 88,
+          "host": "news.google.com"
+        },
+        "rank": {
+          "score": 98,
+          "importance": "中",
+          "action": "建议关注"
+        },
+        "businessLines": [
+          "管理参考"
+        ],
+        "varieties": [],
+        "why": "属于金融要闻类信息，建议作为日常资讯参考。",
+        "confidence": "中"
+      }
+    ],
+    "mustRead": [
+      {
+        "id": "行政处罚罚款催告书送达公告-1778479327433",
+        "title": "行政处罚罚款催告书送达公告",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
+        "url": "https://www.csrc.gov.cn/shenzhen/c104305/c7631106/content.shtml",
+        "publishedAt": "",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会",
+            "行政处罚"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "监管机构",
+          "tier": "权威官方",
+          "score": 100,
+          "host": "csrc.gov.cn"
+        },
+        "rank": {
+          "score": 104,
+          "importance": "高",
+          "action": "建议纳入今日重点"
+        },
+        "businessLines": [
+          "合规"
+        ],
+        "varieties": [],
+        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
+        "confidence": "高"
+      },
+      {
+        "id": "中国证券监督管理委员会行政处罚决定书-1778479327433",
+        "title": "中国证券监督管理委员会行政处罚决定书",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
+        "url": "https://www.csrc.gov.cn/csrc/c101928/c7631484/content.shtml",
+        "publishedAt": "",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会",
+            "行政处罚"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "监管机构",
+          "tier": "权威官方",
+          "score": 100,
+          "host": "csrc.gov.cn"
+        },
+        "rank": {
+          "score": 104,
+          "importance": "高",
+          "action": "建议纳入今日重点"
+        },
+        "businessLines": [
+          "合规"
+        ],
+        "varieties": [],
+        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
+        "confidence": "高"
+      },
+      {
+        "id": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求-1778479327434",
+        "title": "发行监管问答——关于上市公司非公开发行股票引入战略投资者有关事项的监管要求",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
+        "url": "https://www.csrc.gov.cn/csrc/c100107/c1447186/content.shtml",
+        "publishedAt": "",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "监管机构",
+          "tier": "权威官方",
+          "score": 100,
+          "host": "csrc.gov.cn"
+        },
+        "rank": {
+          "score": 104,
+          "importance": "高",
+          "action": "建议纳入今日重点"
+        },
+        "businessLines": [
+          "合规",
+          "客户服务"
+        ],
+        "varieties": [],
+        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规、客户服务等工作。",
+        "confidence": "高"
+      },
+      {
+        "id": "发行监管问答——关于引导规范上市公司融资行为的监管要求修订版-1778479327434",
+        "title": "发行监管问答——关于引导规范上市公司融资行为的监管要求（修订版）",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
+        "url": "https://www.csrc.gov.cn/csrc/c100107/c1447187/content.shtml",
+        "publishedAt": "",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "监管机构",
+          "tier": "权威官方",
+          "score": 100,
+          "host": "csrc.gov.cn"
+        },
+        "rank": {
+          "score": 104,
+          "importance": "高",
+          "action": "建议纳入今日重点"
+        },
+        "businessLines": [
+          "合规"
+        ],
+        "varieties": [],
+        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
+        "confidence": "高"
+      },
+      {
+        "id": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答-1778479327434",
+        "title": "发行监管问答——关于申请首发企业执行新收入准则相关事项的问答",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
+        "url": "https://www.csrc.gov.cn/csrc/c100107/c1447188/content.shtml",
+        "publishedAt": "",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "监管机构",
+          "tier": "权威官方",
+          "score": 100,
+          "host": "csrc.gov.cn"
+        },
+        "rank": {
+          "score": 104,
+          "importance": "高",
+          "action": "建议纳入今日重点"
+        },
+        "businessLines": [
+          "合规"
+        ],
+        "varieties": [],
+        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
+        "confidence": "高"
+      },
+      {
+        "id": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准-1778479327434",
+        "title": "发行监管问答——关于发行规模达到一定数量实行联合保荐的相关标准",
+        "summary": "中国证监会-公告发布的最新公告。",
+        "sourceName": "中国证监会-公告",
+        "url": "https://www.csrc.gov.cn/csrc/c100107/c1447190/content.shtml",
+        "publishedAt": "",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会"
+          ]
+        },
+        "source": {
+          "pattern": {},
+          "label": "监管机构",
+          "tier": "权威官方",
+          "score": 100,
+          "host": "csrc.gov.cn"
+        },
+        "rank": {
+          "score": 104,
+          "importance": "高",
+          "action": "建议纳入今日重点"
+        },
+        "businessLines": [
+          "合规"
+        ],
+        "varieties": [],
+        "why": "来源为权威官方，内容涉及监管与交易所，可能影响合规等工作。",
+        "confidence": "高"
+      },
+      {
+        "id": "关于就中国证监会行政处罚案件违法所得认定办法征求意见稿公开征求意见的通知-1778479327434",
+        "title": "关于就《中国证监会行政处罚案件违法所得认定办法（征求意见稿）》公开征求意见的通知",
+        "summary": "中国证监会-新闻发布的最新公告。",
+        "sourceName": "中国证监会-新闻",
+        "url": "https://www.csrc.gov.cn/csrc/c101981/c7627021/content.shtml",
+        "publishedAt": "",
+        "rawText": "",
+        "category": {
+          "id": "regulation",
+          "label": "监管与交易所",
+          "hits": [
+            "证监会",
+            "行政处罚",
+            "征求意见"
           ]
         },
         "source": {
@@ -2872,9 +4039,9 @@
   },
   "health": {
     "status": "正常",
-    "successRate": "7/13",
-    "failedSources": 6,
-    "durationMs": 15028,
-    "note": "已从 7 个来源抓取并处理，共 48 条。"
+    "successRate": "9/9",
+    "failedSources": 0,
+    "durationMs": 1365,
+    "note": "已从 9 个来源抓取，共 85 条（含 Google 新闻聚合）。"
   }
 }

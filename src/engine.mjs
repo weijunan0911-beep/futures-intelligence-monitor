@@ -1,24 +1,40 @@
 const SOURCE_RULES = [
-  { pattern: /(?:^|\.)csrc\.gov\.cn$/i, label: "监管机构", tier: "权威官方", score: 100 },
-  { pattern: /(?:^|\.)cffex\.com\.cn$/i, label: "期货交易所", tier: "权威官方", score: 98 },
-  { pattern: /(?:^|\.)shfe\.com\.cn$/i, label: "期货交易所", tier: "权威官方", score: 98 },
-  { pattern: /(?:^|\.)dce\.com\.cn$/i, label: "期货交易所", tier: "权威官方", score: 98 },
-  { pattern: /(?:^|\.)czce\.com\.cn$/i, label: "期货交易所", tier: "权威官方", score: 98 },
-  { pattern: /(?:^|\.)gfex\.com\.cn$/i, label: "期货交易所", tier: "权威官方", score: 98 },
-  { pattern: /(?:^|\.)cfachina\.org$/i, label: "行业协会", tier: "权威官方", score: 94 },
-  { pattern: /(?:^|\.)gov\.cn$/i, label: "政府部门", tier: "权威官方", score: 92 },
-  { pattern: /(?:^|\.)stats\.gov\.cn$/i, label: "政府部门", tier: "权威官方", score: 92 },
-  { pattern: /(?:^|\.)pbc\.gov\.cn$/i, label: "央行", tier: "权威官方", score: 92 },
-  { pattern: /(?:^|\.)xinhua(?:net)?\.com$/i, label: "主流媒体", tier: "主流媒体", score: 82 },
-  { pattern: /(?:^|\.)cnstock\.com$/i, label: "主流媒体", tier: "主流媒体", score: 80 },
-  { pattern: /(?:^|\.)stcn\.com$/i, label: "主流媒体", tier: "主流媒体", score: 80 },
-  { pattern: /(?:^|\.)futuresdaily\.cn$/i, label: "行业媒体", tier: "行业参考", score: 78 },
-  { pattern: /(?:^|\.)cmegroup\.com$/i, label: "海外交易所", tier: "权威官方", score: 88 },
-  { pattern: /(?:^|\.)lme\.com$/i, label: "海外交易所", tier: "权威官方", score: 88 },
-  { pattern: /(?:^|\.)ice\.com$/i, label: "海外交易所", tier: "权威官方", score: 88 },
-  { pattern: /(?:^|\.)federalreserve\.gov$/i, label: "海外央行", tier: "权威官方", score: 90 },
-  { pattern: /(?:^|\.)eia\.gov$/i, label: "海外官方数据", tier: "权威官方", score: 88 },
-  { pattern: /(?:^|\.)usda\.gov$/i, label: "海外官方数据", tier: "权威官方", score: 88 }
+  // 国内权威官方
+  { pattern: /(?:^|\.)csrc\.gov\.cn$/i,    label: "监管机构",   tier: "权威官方", score: 100 },
+  { pattern: /(?:^|\.)cffex\.com\.cn$/i,   label: "期货交易所", tier: "权威官方", score: 98 },
+  { pattern: /(?:^|\.)shfe\.com\.cn$/i,    label: "期货交易所", tier: "权威官方", score: 98 },
+  { pattern: /(?:^|\.)dce\.com\.cn$/i,     label: "期货交易所", tier: "权威官方", score: 98 },
+  { pattern: /(?:^|\.)czce\.com\.cn$/i,    label: "期货交易所", tier: "权威官方", score: 98 },
+  { pattern: /(?:^|\.)gfex\.com\.cn$/i,    label: "期货交易所", tier: "权威官方", score: 98 },
+  { pattern: /(?:^|\.)cfachina\.org$/i,    label: "行业协会",   tier: "权威官方", score: 94 },
+  { pattern: /(?:^|\.)pbc\.gov\.cn$/i,     label: "央行",       tier: "权威官方", score: 92 },
+  { pattern: /(?:^|\.)gov\.cn$/i,          label: "政府部门",   tier: "权威官方", score: 92 },
+  // 国内主流媒体
+  { pattern: /(?:^|\.)xinhua(?:net)?\.com$/i, label: "新华社",  tier: "主流媒体", score: 84 },
+  { pattern: /(?:^|\.)people\.com\.cn$/i,  label: "人民日报",   tier: "主流媒体", score: 84 },
+  { pattern: /(?:^|\.)cnstock\.com$/i,     label: "上海证券报", tier: "主流媒体", score: 82 },
+  { pattern: /(?:^|\.)stcn\.com$/i,        label: "证券时报",   tier: "主流媒体", score: 82 },
+  { pattern: /(?:^|\.)21jingji\.com$/i,    label: "21世纪经济报道", tier: "主流媒体", score: 80 },
+  { pattern: /(?:^|\.)caixin\.com$/i,      label: "财新",       tier: "主流媒体", score: 82 },
+  { pattern: /(?:^|\.)thepaper\.cn$/i,     label: "澎湃新闻",   tier: "主流媒体", score: 78 },
+  { pattern: /(?:^|\.)jiemian\.com$/i,     label: "界面新闻",   tier: "主流媒体", score: 76 },
+  { pattern: /(?:^|\.)yicai\.com$/i,       label: "第一财经",   tier: "主流媒体", score: 78 },
+  // 财经专业媒体
+  { pattern: /(?:^|\.)futuresdaily\.cn$/i, label: "期货日报",   tier: "行业媒体", score: 80 },
+  { pattern: /(?:^|\.)cls\.cn$/i,          label: "财联社",     tier: "财经媒体", score: 78 },
+  { pattern: /(?:^|\.)eastmoney\.com$/i,   label: "东方财富",   tier: "财经媒体", score: 72 },
+  { pattern: /(?:^|\.)wallstreetcn\.com$/i,label: "华尔街见闻", tier: "财经媒体", score: 74 },
+  { pattern: /(?:^|\.)jin10\.com$/i,       label: "金十数据",   tier: "财经媒体", score: 70 },
+  { pattern: /(?:^|\.)sina\.com\.cn$/i,    label: "新浪财经",   tier: "财经媒体", score: 68 },
+  { pattern: /(?:^|\.)10jqka\.com\.cn$/i,  label: "同花顺",     tier: "财经媒体", score: 66 },
+  { pattern: /(?:^|\.)hexun\.com$/i,       label: "和讯",       tier: "财经媒体", score: 64 },
+  // 海外权威
+  { pattern: /(?:^|\.)federalreserve\.gov$/i, label: "美联储", tier: "权威官方", score: 90 },
+  { pattern: /(?:^|\.)eia\.gov$/i,         label: "EIA",        tier: "权威官方", score: 88 },
+  { pattern: /(?:^|\.)cmegroup\.com$/i,    label: "CME",        tier: "权威官方", score: 88 },
+  { pattern: /(?:^|\.)lme\.com$/i,         label: "LME",        tier: "权威官方", score: 88 },
+  { pattern: /(?:^|\.)reuters\.com$/i,     label: "路透社",     tier: "主流媒体", score: 82 },
+  { pattern: /(?:^|\.)bloomberg\.com$/i,   label: "彭博",       tier: "主流媒体", score: 82 },
 ];
 
 const CATEGORY_RULES = [
@@ -91,21 +107,36 @@ function matchKeywords(text, rules) {
 }
 
 export function scoreSource(item) {
-  const host = safeUrlHost(item.url || item.sourceUrl || "");
-  const sourceText = `${item.sourceName || ""} ${host}`;
+  // 优先用 sourceUrl（原始来源），其次用 url
+  const host = safeUrlHost(item.sourceUrl || item.url || "");
+  const sourceName = item.sourceName || "";
+
+  // 精确域名匹配
   const exact = SOURCE_RULES.find((rule) => rule.pattern.test(host));
   if (exact) return { ...exact, host };
 
-  if (/交易所|证监会|协会|监管|政府|央行/.test(sourceText)) {
-    return { label: "疑似官方", tier: "较高可信", score: 76, host };
+  // Google News 跳转链接：用 sourceName 反查
+  if (host.includes("news.google.com") || host.includes("google.com")) {
+    const byName = SOURCE_RULES.find((rule) => rule.label && sourceName.includes(rule.label));
+    if (byName) return { ...byName, host };
+    // 根据来源名称文本判断
+    if (/交易所|证监会|协会|监管|政府|央行/.test(sourceName)) return { label: "疑似官方", tier: "较高可信", score: 76, host };
+    if (/证券报|期货日报|财联社|新华社|时报|财经|澎湃|界面|彭博|路透/.test(sourceName)) return { label: "财经媒体", tier: "财经媒体", score: 72, host };
+    return { label: sourceName || "媒体来源", tier: "公开来源", score: 60, host };
   }
-  if (/证券报|期货日报|财联社|新华社|时报|财经/.test(sourceText)) {
-    return { label: "财经媒体", tier: "主流媒体", score: 70, host };
-  }
+
+  // 来源名称关键词兜底
+  if (/交易所|证监会|协会|监管|政府|央行/.test(sourceName)) return { label: "疑似官方", tier: "较高可信", score: 76, host };
+  if (/证券报|期货日报|财联社|新华社|时报|财经|澎湃|界面|第一财经/.test(sourceName)) return { label: "财经媒体", tier: "财经媒体", score: 70, host };
   return { label: "公开来源", tier: "待验证来源", score: 52, host };
 }
 
 export function categorize(item) {
+  // 若抓取时已给出分类提示（Google News 按主题搜索），优先使用
+  if (item._hintCategory) {
+    const hinted = CATEGORY_RULES.find((r) => r.id === item._hintCategory);
+    if (hinted) return { id: hinted.id, label: hinted.label, hits: ["(topic-hint)"] };
+  }
   const text = textOf(item);
   const matches = matchKeywords(text, CATEGORY_RULES);
   return matches[0] ? { id: matches[0].id, label: matches[0].label, hits: matches[0].hits } : { id: "general", label: "综合资讯", hits: [] };
