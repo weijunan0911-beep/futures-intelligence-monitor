@@ -1,0 +1,15 @@
+{
+  "name": "futures-intelligence-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --directory public",
+    "test": "node --test test/*.test.mjs",
+    "fetch": "node scripts/fetch-news.mjs",
+    "validate": "npm test && node scripts/validate-site.mjs",
+    "deploy:worker": "npx wrangler deploy",
+    "deploy:pages": "npx wrangler pages deploy public --project-name futures-intelligence-monitor"
+  },
+  "devDependencies": {}
+}

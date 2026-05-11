@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>期货行业智能资讯监控平台</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">期</div>
+          <div>
+            <h1>期货资讯监控台</h1>
+            <p>智能抓取 · 自动研判 · 低维护</p>
+          </div>
+        </div>
+        <nav class="nav" aria-label="主导航">
+          <button class="nav-item active" data-view="dashboard">我的资讯工作台</button>
+          <button class="nav-item" data-view="leader">领导简报</button>
+          <button class="nav-item" data-view="employee">员工资讯</button>
+          <button class="nav-item" data-view="regulation">监管与交易所</button>
+          <button class="nav-item" data-view="peer">同行动态</button>
+          <button class="nav-item" data-view="finance">金融要闻</button>
+          <button class="nav-item" data-view="variety">品种异动</button>
+          <button class="nav-item" data-view="brief">简报中心</button>
+          <button class="nav-item" data-view="status">系统状态</button>
+        </nav>
+        <div class="source-note">
+          <span>自动可信判断</span>
+          <strong>来源、时间、重复、影响范围综合评分</strong>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">主要供个人管理使用，兼顾领导和员工阅读</p>
+            <h2 id="view-title">我的资讯工作台</h2>
+          </div>
+          <div class="top-actions">
+            <label class="search-box">
+              <span>搜索</span>
+              <input id="search-input" type="search" placeholder="品种、机构、关键词" />
+            </label>
+            <button class="ghost-button" id="copy-brief">复制今日简报</button>
+          </div>
+        </header>
+
+        <section class="hero-summary">
+          <div>
+            <span class="pill blue">今日总览</span>
+            <h3 id="daily-summary">正在加载资讯数据...</h3>
+          </div>
+          <div class="freshness">
+            <span>最近更新</span>
+            <strong id="freshness">--</strong>
+          </div>
+        </section>
+
+        <section class="metrics" id="metrics"></section>
+
+        <section class="layout-grid">
+          <section class="content-panel" id="view-root"></section>
+          <aside class="decision-panel">
+            <div class="panel-card">
+              <div class="panel-header">
+                <h3>我的决策侧栏</h3>
+                <span class="pill orange">自动生成</span>
+              </div>
+              <div id="decision-list" class="decision-list"></div>
+            </div>
+            <div class="panel-card">
+              <div class="panel-header">
+                <h3>系统可信说明</h3>
+              </div>
+              <ul class="trust-list">
+                <li>优先展示监管、交易所、协会、官方数据源。</li>
+                <li>同一事件自动合并，保留更权威来源。</li>
+                <li>来源不明或时间异常内容自动降权。</li>
+                <li>AI 只基于原文生成摘要和提示。</li>
+              </ul>
+            </div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <template id="item-template">
+      <article class="news-card">
+        <div class="card-meta"></div>
+        <h3></h3>
+        <p class="summary"></p>
+        <div class="why"></div>
+        <div class="tags"></div>
+        <div class="card-footer">
+          <a target="_blank" rel="noreferrer">查看原文</a>
+          <span class="action"></span>
+        </div>
+      </article>
+    </template>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

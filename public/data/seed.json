@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-05-11T08:30:00+08:00",
+  "health": {
+    "status": "等待实时数据",
+    "successRate": "未连接 Worker",
+    "failedSources": 0,
+    "note": "当前静态预览不展示任何虚构新闻；部署 Worker 后将只展示实时抓取到的公开来源内容。"
+  },
+  "items": []
+}
