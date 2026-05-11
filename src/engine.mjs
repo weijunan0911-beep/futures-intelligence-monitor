@@ -234,7 +234,14 @@ export function buildWhyImportant(item, category, source, rank, businessLines, v
 
 export function processItems(rawItems) {
   const enriched = dedupeItems(rawItems).map(enrichItem);
-  return enriched.sort((a, b) => b.rank.score - a.rank.score);
+  // 主排序：重要性分数（高→低）；同分时：发布时间（新→旧）
+  return enriched.sort((a, b) => {
+    const scoreDiff = b.rank.score - a.rank.score;
+    if (scoreDiff !== 0) return scoreDiff;
+    const ta = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+    const tb = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+    return tb - ta;
+  });
 }
 
 export function buildDashboard(items) {

@@ -1,44 +1,54 @@
 import { writeFile, readFile } from "node:fs/promises";
 import { buildDashboard } from "../src/engine.mjs";
 
+const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;  // 只保留最近7天
+
 // ── 数据源配置 ─────────────────────────────────────────────────────────────
 // Google News RSS：聚合全网新闻，有真实时间+摘要+来源，稳定可靠
 // 官方 HTML：证监会/期货业协会/央行等可正常抓取的官方页面
 //
 // 删除：五大交易所（JS渲染无法抓取）、EIA/CME（国内访问超时）、国家统计局（意义不大）
+// ── Google News RSS 动态日期过滤 ─────────────────────────────────────────
+// 在查询词中加入 after:YYYY-MM-DD，让 Google 只返回最近7天的新闻
+function googleRssUrl(queryWords) {
+  const after = new Date(Date.now() - MAX_AGE_MS).toISOString().slice(0, 10);
+  const q = encodeURIComponent(`${queryWords} after:${after}`);
+  return `https://news.google.com/rss/search?q=${q}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans`;
+}
+
 const SOURCES = [
-  // ── Google News RSS：按主题聚合，每个话题独立搜索 ────────────────────
+  // ── Google News RSS：按主题聚合，强制只返回7天内新闻 ─────────────────
   {
     name: "Google新闻-期货监管",
-    url: "https://news.google.com/rss/search?q=%E6%9C%9F%E8%B4%A7+%E8%AF%81%E7%9B%91%E4%BC%9A+%E4%BA%A4%E6%98%93%E6%89%80+%E7%9B%91%E7%AE%A1+%E5%85%AC%E5%91%8A&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    get url() { return googleRssUrl("期货 证监会 交易所 监管 公告"); },
     type: "google-rss",
     category: "regulation",
     keywords: ["期货", "证监会", "交易所", "监管", "公告", "处罚", "保证金", "涨跌停", "手续费"]
   },
   {
     name: "Google新闻-期货公司",
-    url: "https://news.google.com/rss/search?q=%E6%9C%9F%E8%B4%A7%E5%85%AC%E5%8F%B8+%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86+%E5%90%88%E8%A7%84+%E6%9C%9F%E8%B4%A7%E8%A1%8C%E4%B8%9A&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    get url() { return googleRssUrl("期货公司 风险管理 合规 期货行业"); },
     type: "google-rss",
     category: "peer",
     keywords: ["期货公司", "风险管理", "合规", "期货行业", "处罚", "高管", "从业", "协会"]
   },
   {
     name: "Google新闻-品种行情",
-    url: "https://news.google.com/rss/search?q=%E6%9C%9F%E8%B4%A7+%E9%BB%84%E9%87%91+%E5%8E%9F%E6%B2%B9+%E9%93%9C+%E8%9E%BA%E7%BA%B9+%E8%B1%86%E7%B2%95+%E5%A4%A7%E6%B6%A8%E5%A4%A7%E8%B7%8C&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    get url() { return googleRssUrl("期货 黄金 原油 铜 螺纹 豆粕 大涨 大跌"); },
     type: "google-rss",
     category: "variety",
     keywords: ["期货", "黄金", "原油", "铜", "螺纹", "豆粕", "大涨", "大跌", "涨停", "跌停", "行情"]
   },
   {
     name: "Google新闻-宏观金融",
-    url: "https://news.google.com/rss/search?q=%E5%A4%AE%E8%A1%8C+%E7%BE%8E%E8%81%94%E5%82%A8+%E5%88%A9%E7%8E%87+%E6%B1%87%E7%8E%87+%E6%9C%9F%E8%B4%A7&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    get url() { return googleRssUrl("央行 美联储 利率 汇率 期货"); },
     type: "google-rss",
     category: "finance",
     keywords: ["央行", "美联储", "利率", "汇率", "货币政策", "期货", "宏观", "经济"]
   },
   {
     name: "Google新闻-衍生品",
-    url: "https://news.google.com/rss/search?q=%E8%A1%8D%E7%94%9F%E5%93%81+%E6%9C%9F%E8%B4%A7+%E5%9F%BA%E5%B7%AE+%E4%BB%93%E5%8D%95+%E6%8C%81%E4%BB%93+%E5%A4%9A%E7%A9%BA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    get url() { return googleRssUrl("衍生品 期货 基差 仓单 持仓 多空"); },
     type: "google-rss",
     category: "variety",
     keywords: ["衍生品", "期货", "基差", "仓单", "持仓", "多空", "库存"]
@@ -77,6 +87,22 @@ const NAVIGATION_LABELS = new Set([
   "登录", "注册", "关于我们", "联系我们", "网站地图", "隐私政策",
 ]);
 
+// ── 时间过滤 ──────────────────────────────────────────────────────────────
+
+function isRecent(item) {
+  if (!item.publishedAt) return true;           // 无时间的条目（官方页面刚刚抓到的）视为新鲜
+  const t = new Date(item.publishedAt).getTime();
+  if (Number.isNaN(t)) return true;
+  if (t > Date.now() + 3_600_000) return false; // 未来超过1小时的拒绝（时间异常）
+  return Date.now() - t <= MAX_AGE_MS;
+}
+
+// 官方 HTML 来源抓到但没有日期的，打上当前时间（它们本来就是刚发布的公告）
+function stampIfMissing(item) {
+  if (!item.publishedAt) return { ...item, publishedAt: new Date().toISOString() };
+  return item;
+}
+
 // ── 主流程 ────────────────────────────────────────────────────────────────
 async function main() {
   const startedAt = Date.now();
@@ -84,25 +110,27 @@ async function main() {
   const rawItems = results.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
   const failedSources = results.filter((r) => r.status === "rejected").length;
 
-  // 降级兜底：新数据不足时合并上次成功数据
-  let finalItems = rawItems;
-  if (rawItems.length < 10) {
-    const previous = await loadPreviousItems();
-    if (previous.length) {
-      finalItems = [...rawItems, ...previous];
-      console.log(`新数据 ${rawItems.length} 条，合并上次 ${previous.length} 条历史数据`);
-    }
-  }
+  // 1. 打上时间戳（无日期条目），再过滤掉 7 天以外的旧内容
+  const freshItems = rawItems.map(stampIfMissing).filter(isRecent);
+  const droppedOld = rawItems.length - freshItems.length;
+  if (droppedOld > 0) console.log(`过滤掉 ${droppedOld} 条超过7天的旧内容`);
 
-  const dashboard = buildDashboard(finalItems);
+  // 2. 加载上一次的存档（也过滤到 7 天内），实现滚动窗口
+  //    每次更新 = 本次新内容 + 上次7天内存档（去重后）
+  const previous = (await loadPreviousItems()).filter(isRecent);
+
+  // 3. 新内容优先，合并去重（buildDashboard 内部已做去重）
+  const dashboard = buildDashboard([...freshItems, ...previous]);
+
   dashboard.health = {
     status: failedSources > SOURCES.length / 2 ? "部分延迟" : "正常",
     successRate: `${SOURCES.length - failedSources}/${SOURCES.length}`,
     failedSources,
     durationMs: Date.now() - startedAt,
-    note: rawItems.length
-      ? `已从 ${SOURCES.length - failedSources} 个来源抓取，共 ${dashboard.items.length} 条（含 Google 新闻聚合）。`
-      : "未抓取到内容，已使用历史缓存数据。"
+    newThisRun: freshItems.length,
+    note: freshItems.length
+      ? `本次新增 ${freshItems.length} 条，7天窗口共 ${dashboard.items.length} 条。过滤掉 ${droppedOld} 条7天以外旧内容。`
+      : "本次未抓到新内容，展示7天内历史存档。"
   };
 
   await writeFile("public/data/live.json", JSON.stringify(dashboard, null, 2), "utf8");
@@ -122,7 +150,7 @@ async function main() {
 async function loadPreviousItems() {
   try {
     const raw = await readFile("public/data/live.json", "utf8");
-    return (JSON.parse(raw).items || []).slice(0, 60);
+    return JSON.parse(raw).items || [];
   } catch { return []; }
 }
 
