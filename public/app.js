@@ -20,7 +20,7 @@ const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 
 async function loadDashboard() {
-  const candidates = ["/api/today", "/data/live.json", "/data/seed.json"];
+  const candidates = ["api/today", "data/live.json", "data/seed.json"];
   for (const url of candidates) {
     try {
       const response = await fetch(url, { cache: "no-store" });
